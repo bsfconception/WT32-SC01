@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+
+<title>WT32-SC01 Ext Board Test</title>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+
+<body bgcolor="#dfdfdf" >
+
+<p >&nbsp;</p>
+
+<table align="center" bgcolor="#004080" border="0" cellpadding="3" cellspacing="1" width="640">
+	<tbody>
+		<tr>
+			<td>
+			<h1 align="center" ><font color="#ffffff" >WT32-SC01</font></h1>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#c0c0c0">
+			<p align="center">
+        &nbsp; 
+       <a class="navblack" href="HT_Home.htm" >Home</a>
+        &nbsp; |&nbsp; 
+        <a class="navblack" href="HT_Conf.htm" >Configuration</a>
+        &nbsp; |&nbsp; 
+        <a class="navblack" href="HT_Reset.htm">Reset</a>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#f0f0f0">
+			<p align="center">&nbsp;</p>
+      <h2 style="text-align: center">Configuration</h2>
+      
+			<table align="center"    >
+				<tbody>
+					<tr>
+      			<form action="HT_Conf.htm" method="post" >
+  						<td style="text-align: right">Date</td>
+  						<td style="text-align: left"><input maxlength="32" name="DATE" size="32" type="date" value="#DATE#" /></td>
+  						<td style="text-align: left"><input  type="submit" class="button button_cta_update" value="Update" /></td>
+  						<td><input name="ACTION" type="hidden" value="UPDATE_DATE" /></td>
+      			</form>
+					</tr>
+					<tr>
+      			<form action="HT_Conf.htm" method="post" >
+  						<td style="text-align: right">Time</td>
+  						<td style="text-align: left"><input maxlength="32" name="TIME" size="32" type="time" value="#TIME#" /></td>
+  						<td style="text-align: left"><input  type="submit" class="button button_cta_update" value="Update" /></td>
+  						<td><input name="ACTION" type="hidden" value="UPDATE_TIME" /></td>
+      			</form>
+					</tr>
+				</tbody>
+			</table>
+			<p align="center">&nbsp;</p>
+			<form action="HT_Conf.htm" method="post" >
+			<table align="center"    >
+				<tbody>
+					<tr>
+						<td style="text-align: right">Module Name</td>
+						<td style="text-align: left"><input maxlength="32"  name="MODULENAME" size="32" type="text" value="#MODULENAME#" /></td>
+					</tr>
+					<tr>
+						<td style="text-align: right">Description</td>
+            <td style="text-align: left">
+            <textarea name="DESCRIPTION" rows="3" cols="31" >#DESCRIPTION#</textarea>
+					  </td>
+					</tr>
+					<tr>
+						<td style="text-align: right">WIFI Name</td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIID" size="32" type="text"  value="#WIFIID#" /></td>
+					</tr>
+					<tr>
+						<td style="text-align: right">WIFI Password</td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIPWD" size="32" type="text" value="#WIFIPWD#" /></td>
+					</tr>
+					<tr>
+						<td style="text-align: right">IP*</td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIIP" size="32" type="text" class="form-input" placeholder="xxx.xxx.xxx.xxx" value="#WIFIIP#" /></td>
+					</tr>
+					<tr>
+						<td style="text-align: right">Gateway*</td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIGW" size="32" type="text" class="form-input" placeholder="xxx.xxx.xxx.xxx" value="#WIFIGW#" /></td>
+					</tr>
+					<tr>
+						<td style="text-align: right"></td>
+						<td style="text-align: right">* : leave 0.0.0.0 for DHCP or enter a valid IP address</td>
+					</tr>
+          
+				</tbody>
+			</table>
+			<p><input name="ACTION" type="hidden" value="UPDATE" /></p>
+			<p style="text-align: center"><input type="submit" class="button button_cta_save" value="Update" /></p>
+			</form>
+
+		</tr>
+    
+		<tr>
+			<td><font color="#ffffff" >(c) BSF Conception 2020 - bsf.conception@gmail.com</td>
+		</tr>
+
+
+
+	</tbody>
+</table>
+</body>
+</html>
