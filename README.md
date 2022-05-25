@@ -31,3 +31,4 @@ The demo source code tests all the expansion board feature. The testing code is 
 
 Note : check the code to mofidy and adjust for your testing. The "Display Picture" feature loads by defaut "logo.jpg" from the SD Card
 
+### Important Notice : Power OFF the on board power supply during the programming
