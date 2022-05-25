@@ -44,7 +44,9 @@ These measurements are performed using the provided test code.
 
 ## You want a PCB ?
 the PCB can be purchased here : 
+
 https://www.etsy.com/fr/listing/1239499505/wt32-sc01-expansion-board-pcb-only
+
 https://www.tindie.com/products/blacksfactory/wt32-sc01-expansion-board-pcb-only/
 
 
