@@ -31,4 +31,15 @@ The demo source code tests all the expansion board feature. The testing code is 
 
 Note : check the code to mofidy and adjust for your testing. The "Display Picture" feature loads by defaut "logo.jpg" from the SD Card
 
+## Power Consumption
+The Powwer consumption of the entire system (WT32 + Expansion board) have been performed using the Li-Ion battery: 
+- Wifi Connection and registration : 700mA
+- Normal running : 460 mA
+- Light Sleep Mode : 80 mA
+
+These measurements are performed using the provided test code.
+
+
+
+
 ### Important Notice : Power OFF the on board power supply during the programming
