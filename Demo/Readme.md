@@ -15,4 +15,4 @@ C:\Users\xxxuserxxx\Documents\Arduino\libraries\TFT_eSPI
 - User_Setup_Select.h
 - WT32-SC01-User_Setup.h
 
-
+Ensure that you enable the SPIFF features when compiling and uploading the code on the ESP32
