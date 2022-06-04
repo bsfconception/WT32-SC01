@@ -19,7 +19,7 @@ Adding the 1500mAh LiIon battery:
 Testing the charger
 ![IMG_20220603_172109](https://user-images.githubusercontent.com/84618082/171989770-ad16df05-e0e1-418f-9525-17ee90056005.jpg)
 
-The Holder 3D view (Laser cuted acrylic sheet)
+The Holder 3D view (Laser cut acrylic sheet)
 
 ![WT32_SC01_V0](https://user-images.githubusercontent.com/84618082/171990893-48e227c7-934f-4d4e-997f-bcba1bd4e81b.png)
 
