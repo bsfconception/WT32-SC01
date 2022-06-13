@@ -1,4 +1,4 @@
-# Demonstration Software
+# Demonstration Softwares
 
 The demo code is provided "as is". Is is based on personal developement and examples from sereval sources.
 
@@ -24,3 +24,9 @@ All the libraries are up to date for building
 
 
 Ensure that you enable the SPIFF features when compiling and uploading the code on the ESP32
+
+##Notes
+Somes guides have been helpfull to make it work
+- https://blog.csdn.net/weixin_44007534/article/details/115224595
+- https://daumemo.com/how-to-use-lvgl-library-on-arduino-with-an-esp-32-and-spi-lcd/
+
