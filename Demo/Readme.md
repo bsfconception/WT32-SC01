@@ -17,10 +17,10 @@ C:\Users\xxxuserxxx\Documents\Arduino\libraries\TFT_eSPI
 
 Two examples are provided : 
 - WT32_BSF_Demo : using only TFT_eSPI graphical library
-- WT32_BSF_LVGL_Demo : based on hte previous one but adding the LVGL graphical interface. A setting enable or disable the LVGL features
+- WT32_BSF_LVGL_Demo : code based on the previous but adding the LVGL graphical interface. A setting enables or disables the LVGL features
 
 The both examples have been compiled using Arduino IDE 1.8.15
-All the libraries are up to date
+All the libraries are up to date for building
 
 
 Ensure that you enable the SPIFF features when compiling and uploading the code on the ESP32
