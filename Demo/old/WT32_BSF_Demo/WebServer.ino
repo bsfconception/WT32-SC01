@@ -1,19 +1,3 @@
-/* 
- * This file is part of the BSFConception distribution (https://github.com/bsfconception/WT32-SC01).
- * Copyright (c) 2022 BSF Conception - France
- * 
- * This program is free software: you can redistribute it and/or modify  
- * it under the terms of the GNU General Public License as published by  
- * the Free Software Foundation, version 3.
- *
- * This program is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of 
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License 
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 
 #ifdef __MANAGE_WEB__
 
@@ -31,7 +15,6 @@ void disableWifi()
 void setupWifi() 
 {
 int trycnt = 0;
-    __DEBUG_FCT__();
 
   g_WifiMode = WIFIMODE_NONE;
   // try in station mode
@@ -136,7 +119,6 @@ int trycnt = 0;
 
 void handleRoot() 
 {
-    __DEBUG_FCT__();
   String path = server.uri(); //saves the to a string server uri ex.(192.168.100.110/edit server uri is "/edit")
   g_SerialDebug.print("handleRoot-path ");  g_SerialDebug.println(path);
 
@@ -157,7 +139,6 @@ void handleRoot()
 
 void INI_File() 
 {
-    __DEBUG_FCT__();
 
   String path = server.uri(); //saves the to a string server uri ex.(192.168.100.110/edit server uri is "/edit")
   g_SerialDebug.print("INI File-path ");  g_SerialDebug.println(path);
@@ -184,7 +165,6 @@ void INI_File()
 
 //This functions returns a String of content type
 String getContentType(String filename) {
-    __DEBUG_FCT__();
   
   if (server.hasArg("download")) { // check if the parameter "download" exists
     return "application/octet-stream";
@@ -229,7 +209,6 @@ void HT_Home()
 String label;  
   int y, mo, d, h, m, s;
   String LocalPage, Message;
-    __DEBUG_FCT__();
   
   
   String path = server.uri(); //saves the to a string server uri ex.(192.168.100.110/edit server uri is "/edit")
@@ -264,8 +243,6 @@ void HT_Config()
 {
   int y, mo, d, h, m, s;
   String LocalPage, Message;
-      __DEBUG_FCT__();
-
   String path = server.uri(); //saves the to a string server uri ex.(192.168.100.110/edit server uri is "/edit")
   g_SerialDebug.print("HT Config-path ");  g_SerialDebug.println(path);
  
@@ -284,7 +261,7 @@ void HT_Config()
   }
 
 
-#ifdef __MANAGE_RTC__
+
   g_curDateTime = g_rtc.now();
   h = g_curDateTime.hour();
   m = g_curDateTime.minute();
@@ -292,7 +269,6 @@ void HT_Config()
   y = g_curDateTime.year();
   mo = g_curDateTime.month();
   d = g_curDateTime.day();
-#endif
   
   Message = y;
   if( mo < 10 )
@@ -335,8 +311,6 @@ void HT_Config()
 void HT_ConfigPost() 
 {
   int y, mo, d, h, m, s;
-      __DEBUG_FCT__();
-
   String path = server.uri(); //saves the to a string server uri ex.(192.168.100.110/edit server uri is "/edit")
   String message;
   g_SerialDebug.print("pathPOST ");  g_SerialDebug.println(path);
@@ -354,13 +328,14 @@ void HT_ConfigPost()
           y = atoi(message.c_str());
           mo = atoi(message.c_str()+5);
           d = atoi(message.c_str()+8);
-#ifdef __MANAGE_RTC__
+
           g_curDateTime = g_rtc.now();
           h = g_curDateTime.hour();
           m = g_curDateTime.minute();
           s = g_curDateTime.second();
+
           g_rtc.adjust(DateTime(y, mo, d, h, m, s));
-#endif            
+            
 //          strncpy(g_general_Config.EMessage, message.c_str(), MESSAGE_SIZE-1);
 //          SaveConfigData();
         }
@@ -373,14 +348,15 @@ void HT_ConfigPost()
           // parse date
           h = atoi(message.c_str());
           m = atoi(message.c_str()+3);
-#ifdef __MANAGE_RTC__
+
           g_curDateTime = g_rtc.now();
           y = g_curDateTime.year();
           mo = g_curDateTime.month();
           d = g_curDateTime.day();
           s = g_curDateTime.second();
+
           g_rtc.adjust(DateTime(y, mo, d, h, m, s));
-#endif            
+            
         } 
       }  
       if( !strcmp( Action.c_str() , "UPDATE" ) )
@@ -456,7 +432,6 @@ unsigned char Length;
 unsigned char Type;
 unsigned short Delay;
 unsigned char Repetition;
-    __DEBUG_FCT__();
             
   String path = server.uri(); //saves the to a string server uri ex.(192.168.100.110/edit server uri is "/edit")
   String message;
@@ -478,7 +453,6 @@ unsigned char Length;
 unsigned char Type;
 unsigned short Delay;
 unsigned char Repetition;
-    __DEBUG_FCT__();
             
 
   String path = server.uri(); //saves the to a string server uri ex.(192.168.100.110/edit server uri is "/edit")

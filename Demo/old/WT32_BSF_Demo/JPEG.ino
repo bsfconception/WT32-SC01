@@ -1,19 +1,4 @@
-/* 
- * This file is part of the BSFConception distribution (https://github.com/bsfconception/WT32-SC01).
- * Copyright (c) 2022 BSF Conception - France
- * 
- * This program is free software: you can redistribute it and/or modify  
- * it under the terms of the GNU General Public License as published by  
- * the Free Software Foundation, version 3.
- *
- * This program is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of 
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License 
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
+#ifdef __MANAGE_LCD__
 
 
 #include <JPEGDecoder.h>
@@ -24,7 +9,6 @@
 // xpos, ypos is top left corner of plotted image
 void drawSdJpeg(const char *filename, int xpos, int ypos) {
 
-    __DEBUG_FCT__();
   // Open the named file (the Jpeg decoder library will close it)
   File jpegFile = SD.open( filename, FILE_READ);  // or, file handle reference for SD library
  
@@ -59,7 +43,6 @@ void drawSdJpeg(const char *filename, int xpos, int ypos) {
 // fit totally on the screen are cropped to the nearest MCU size and may leave right/bottom borders.
 void jpegRender(int xpos, int ypos) {
 
-    __DEBUG_FCT__();
   //jpegInfo(); // Print information from the JPEG file (could comment this line out)
 
   uint16_t *pImg;
@@ -142,7 +125,6 @@ void jpegRender(int xpos, int ypos) {
 //####################################################################################################
 // JpegDec.decodeFile(...) or JpegDec.decodeArray(...) must be called before this info is available!
 void jpegInfo() {
-    __DEBUG_FCT__();
 
   // Print information extracted from the JPEG file
   Serial.println("JPEG image info");
@@ -176,8 +158,9 @@ void jpegInfo() {
 // The Due will work fine with the HX8357_Due library.
 
 void showTime(uint32_t msTime) {
-    __DEBUG_FCT__();
   Serial.print(F(" JPEG drawn in "));
   Serial.print(msTime);
   Serial.println(F(" ms "));
 }
+
+#endif

@@ -1,46 +1,27 @@
-/* 
- * This file is part of the BSFConception distribution (https://github.com/bsfconception/WT32-SC01).
- * Copyright (c) 2022 BSF Conception - France
- * 
- * This program is free software: you can redistribute it and/or modify  
- * it under the terms of the GNU General Public License as published by  
- * the Free Software Foundation, version 3.
- *
- * This program is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of 
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License 
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
-
 void displayTime( void )
 {
 int y, mo, d, h, m, s, res, v;
-
-#ifdef __MANAGE_RTC__
 
     g_tft.fillRect( 0, 270, g_screenWidth, g_screenHeight - 270, TFT_BLACK);
 
     // Get RTC info
     _RTC_GetCurrent(&y, &mo, &d, &h, &m, &s );
-    g_MessageBuffer = (char)(h / 10 + '0');
-    g_MessageBuffer = g_MessageBuffer + (char)(h % 10 + '0');
-    g_MessageBuffer = g_MessageBuffer + ":";
-    g_MessageBuffer = g_MessageBuffer + (char)(m / 10 + '0');
-    g_MessageBuffer = g_MessageBuffer + (char)(m % 10 + '0');
-    g_MessageBuffer = g_MessageBuffer + ":";
-    g_MessageBuffer = g_MessageBuffer + (char)(s / 10 + '0');
-    g_MessageBuffer = g_MessageBuffer + (char)(s % 10 + '0');
+    MessageBuffer = (char)(h / 10 + '0');
+    MessageBuffer = MessageBuffer + (char)(h % 10 + '0');
+    MessageBuffer = MessageBuffer + ":";
+    MessageBuffer = MessageBuffer + (char)(m / 10 + '0');
+    MessageBuffer = MessageBuffer + (char)(m % 10 + '0');
+    MessageBuffer = MessageBuffer + ":";
+    MessageBuffer = MessageBuffer + (char)(s / 10 + '0');
+    MessageBuffer = MessageBuffer + (char)(s % 10 + '0');
     
     g_SerialDebug.print("Time : ");
-    g_SerialDebug.println( g_MessageBuffer.c_str() );
+    g_SerialDebug.println( MessageBuffer.c_str() );
   
     g_tft.setTextColor(TFT_YELLOW,TFT_BLACK);
     g_tft.drawString("Time", 100, 300 );
-    g_tft.drawString(g_MessageBuffer.c_str(), 100, 350 );
-#endif  
+    g_tft.drawString(MessageBuffer.c_str(), 100, 350 );
+  
 }
 
 void displaybattery( void )
@@ -50,10 +31,10 @@ void displaybattery( void )
     g_SerialDebug.print("Battery : ");
     g_SerialDebug.println( BPVal );
         
-    g_MessageBuffer = (int)(BPVal);
+    MessageBuffer = (int)(BPVal);
     g_tft.setTextColor(TFT_YELLOW,TFT_BLACK);
     g_tft.drawString("Battery Value:", 100, 300 );
-    g_tft.drawString(g_MessageBuffer.c_str(), 100, 350 );
+    g_tft.drawString(MessageBuffer.c_str(), 100, 350 );
   
 }
 
@@ -66,14 +47,12 @@ void displayPicture( void )
 
 void playSound( void )
 {
-#ifdef __MANAGE_DAC__
-  
     g_tft.fillRect( 0, 270, g_screenWidth, g_screenHeight - 270, TFT_BLACK);
     g_tft.setTextColor(TFT_YELLOW,TFT_BLACK);
     g_tft.drawString("Play Sound", 100, 300 );
     _MCP_Play( 220, 0 , 200000 ); 
 
-#endif  
+  
 }
 
 void enterSleep( void )

@@ -1,27 +1,14 @@
-/* 
- * This file is part of the BSFConception distribution (https://github.com/bsfconception/WT32-SC01).
- * Copyright (c) 2022 BSF Conception - France
- * 
- * This program is free software: you can redistribute it and/or modify  
- * it under the terms of the GNU General Public License as published by  
- * the Free Software Foundation, version 3.
- *
- * This program is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of 
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License 
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 #ifdef __MANAGE_SDCARD__
 
+#define _SD_SCLK  25
+#define _SD_MISO  27
+#define _SD_MOSI  26
+#define _SD_CS    33
 
 /****************************************************************************/
 
 int _SD_MountSDCard()
 {
-    __DEBUG_FCT__();
   //Assuming use of SPI SD card
   SPI_SD.begin(_SD_SCLK, _SD_MISO, _SD_MOSI, _SD_CS);
   if (!SD.begin(_SD_CS, SPI_SD)) 
@@ -47,14 +34,12 @@ int _SD_MountSDCard()
 
 long SD_GetCardSize( void )
 {
-    __DEBUG_FCT__();
 long s;
   s = SD.cardSize();
   return(s);
 }
 
 void _SD_createDir(fs::FS &fs, const char * path){
-    __DEBUG_FCT__();
     g_SerialDebug.printf("Creating Dir: %s\n", path);
     if(fs.mkdir(path)){
         g_SerialDebug.println("Dir created");
@@ -64,7 +49,6 @@ void _SD_createDir(fs::FS &fs, const char * path){
 }
 
 void _SD_removeDir(fs::FS &fs, const char * path){
-    __DEBUG_FCT__();
     g_SerialDebug.printf("Removing Dir: %s\n", path);
     if(fs.rmdir(path)){
         g_SerialDebug.println("Dir removed");
@@ -74,7 +58,6 @@ void _SD_removeDir(fs::FS &fs, const char * path){
 }
 
 void _SD_readFile(fs::FS &fs, const char * path){
-    __DEBUG_FCT__();
     g_SerialDebug.printf("Reading file: %s\n", path);
 
     File file = fs.open(path);
@@ -91,7 +74,6 @@ void _SD_readFile(fs::FS &fs, const char * path){
 }
 
 void _SD_writeFile(fs::FS &fs, const char * path, const char * message){
-    __DEBUG_FCT__();
    g_SerialDebug.printf("Writing file: %s\n", path);
 
     File file = fs.open(path, FILE_WRITE);
@@ -108,7 +90,6 @@ void _SD_writeFile(fs::FS &fs, const char * path, const char * message){
 }
 
 void _SD_appendFile(fs::FS &fs, const char * path, const char * message){
-    __DEBUG_FCT__();
     g_SerialDebug.printf("Appending to file: %s\n", path);
 
     File file = fs.open(path, FILE_APPEND);
@@ -125,8 +106,7 @@ void _SD_appendFile(fs::FS &fs, const char * path, const char * message){
 }
 
 void _SD_renameFile(fs::FS &fs, const char * path1, const char * path2){
-        __DEBUG_FCT__();
-  g_SerialDebug.printf("Renaming file %s to %s\n", path1, path2);
+    g_SerialDebug.printf("Renaming file %s to %s\n", path1, path2);
     if (fs.rename(path1, path2)) {
         g_SerialDebug.println("File renamed");
     } else {
@@ -135,7 +115,6 @@ void _SD_renameFile(fs::FS &fs, const char * path1, const char * path2){
 }
 
 void _SD_deleteFile(fs::FS &fs, const char * path){
-    __DEBUG_FCT__();
     g_SerialDebug.printf("Deleting file: %s\n", path);
     if(fs.remove(path)){
         g_SerialDebug.println("File deleted");
@@ -146,7 +125,6 @@ void _SD_deleteFile(fs::FS &fs, const char * path){
 
 
 void listDir(fs::FS &fs, const char * dirname, uint8_t levels){
-    __DEBUG_FCT__();
     Serial.printf("Listing directory: %s\n", dirname);
 
     File root = fs.open(dirname);

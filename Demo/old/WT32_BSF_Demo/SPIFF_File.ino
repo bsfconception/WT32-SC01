@@ -1,20 +1,3 @@
-/* 
- * This file is part of the BSFConception distribution (https://github.com/bsfconception/WT32-SC01).
- * Copyright (c) 2022 BSF Conception - France
- * 
- * This program is free software: you can redistribute it and/or modify  
- * it under the terms of the GNU General Public License as published by  
- * the Free Software Foundation, version 3.
- *
- * This program is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of 
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License 
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
-
 #define GENERAL_CONFIG_FILE "/GEN_CFG.INI"
 
 typedef struct {
@@ -28,7 +11,6 @@ INI_FILE_STRUCTURE g_IniFileData;
 int INI_getValue( char *Section, char *Key, char *Data, int Len )
 {
 int index_section, index_key, index_end, data_len;  
-    __DEBUG_FCT__();
 
     
   // find the Section
@@ -68,7 +50,6 @@ int index_section, index_key, index_end, data_len;
 
 int INI_SPIFF_Load( char *Name )
 {
-    __DEBUG_FCT__();
  
   // init
   g_IniFileData.Data = "";
@@ -97,7 +78,6 @@ int INI_SPIFF_Load( char *Name )
 
 void InitConfigData( void )
 {
-    __DEBUG_FCT__();
 
  // HT_Home
   strcpy( g_general_Config.ModuleName, "WT32");
@@ -127,7 +107,6 @@ short LoadConfigData( void )
 {
 String label;
 char Message[16];  
-    __DEBUG_FCT__();
   InitConfigData();
    
   if (!INI_SPIFF_Load(GENERAL_CONFIG_FILE)) 
@@ -159,7 +138,6 @@ char Message[16];
 short SaveConfigData( void )
 {
 String label;  
-    __DEBUG_FCT__();
 
  // open the file. note that only one file can be open at a time,
   // so you have to close this one before opening another.
