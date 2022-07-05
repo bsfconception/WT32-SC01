@@ -1,0 +1,146 @@
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,BT1,Battery_Cell,Device:Battery_Cell,Livrary:CR1220_SMD,~
+,,C1,100nF,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,C2,10uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_4x4.5,~
+,,C3,100nF,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,C4,100nF,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,C5,100uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_5x5.3,~
+,,C6,470uF,Device:C_Polarized,Capacitor_Tantalum_SMD:CP_EIA-7360-38_Kemet-E_Pad2.25x4.25mm_HandSolder,~
+,,C7,100uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_5x5.3,~
+,,C8,100uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_5x5.3,~
+,,C9,470uF,Device:C_Polarized,Capacitor_Tantalum_SMD:CP_EIA-7360-38_Kemet-E,~
+,,C10,47uF,Device:C,Capacitor_SMD:CP_Elec_4x4.5,~
+,,C11,100nF,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,C12,100uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_5x5.3,~
+,,C13,100uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_5x5.3,~
+,,C14,100nF,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,C15,100uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_5x5.3,~
+,,C16,47nF,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,C17,10uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_4x4.5,~
+,,D1,SR540,Device:D_Shockley,Diode_SMD:D_SMA,~
+,,D2,1N4004,Diode:1N4001,Diode_SMD:D_SMB-SMC_Universal_Handsoldering,http://www.vishay.com/docs/88503/1n4001.pdf
+,,D4,STBY,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,D5,CHRG,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,J1,SD_Card,Connector:Micro_SD_Card_Det,Livrary:TF_SDCard,https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+,,J2,CTRL,Connector_Generic:Conn_01x04,Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,~
+,,J3,I2C,Connector_Generic:Conn_01x04,Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,~
+,,J4,BAT+,Connector_Generic:Conn_01x01,Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat,~
+,,J5,CHG+,Connector_Generic:Conn_01x01,Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat,~
+,,J6,BAT-,Connector_Generic:Conn_01x01,Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat,~
+,,J7,CHG-,Connector_Generic:Conn_01x01,Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat,~
+,,J8,POWER,Connector_Generic:Conn_01x03,Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal,~
+,,J9,SPK,Connector_Generic:Conn_01x02,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,~
+,,J10,GPIO,Connector_Generic:Conn_01x08,Connector_JST:JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal,~
+,,J11,DAC,Connector_Generic:Conn_01x03,Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal,~
+,,J12,I2C,Connector_Generic:Conn_01x04,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,~
+,,J13,BAT,Connector_Generic:Conn_01x02,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,~
+,,J14,USB_B_Micro,Connector:USB_B_Micro,Livrary:USB_Micro-B,~
+,,JP1,Short 5V,Jumper:Jumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,~
+,,JP2,FORCE PWR,Jumper:Jumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,~
+,,JP3,DAC A0,Jumper:Jumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+,,JP4,SEL,Jumper:Jumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+,,L1,3u3,Device:L_Ferrite,Inductor_SMD:L_10.4x10.4_H4.8,~
+,,R1,47K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R2,47K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R3,47K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R4,75K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R5,100,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R6,1K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R7,1K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R8,1K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R9,10K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R10,33K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R11,1K8,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R12,47K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R13,47K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R14,7K5,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R15,20K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R16,1K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R17,10,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R18,1K2,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,R19,47K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+,,SW1,WAKE,Switch:SW_Push,Livrary:SW_PUSH_TS_1224W,~
+,,SW2,RESET,Switch:SW_Push,Livrary:SW_Push_1P1T_Mini4x4x1.5,~
+,,SW3,SEL,Switch:SW_Push,Livrary:SW_PUSH_TS_1224W,~
+,,SW4,SWITCH,Switch:SW_SPDT,Livrary:SW_MSK_01S,~
+,,SW5,SWITCH,Switch:SW_SPDT,Livrary:SPDT_Small,~
+,,SW6,WAKE,Switch:SW_Push,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS,~
+,,SW7,SEL,Switch:SW_Push,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS,~
+,,U1,DS3231M,Timer_RTC:DS3231M,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,http://datasheets.maximintegrated.com/en/ds/DS3231.pdf
+,,U2,WT32-SC01,custom:WT32-SC01,Livrary:WS32-SC01-H,
+,,U3,DW01x,custom:DW01x,Package_TO_SOT_SMD:TSOT-23-6,
+,,U4,TP4056,custom:TP4056,Livrary:SOP-8_EP,
+,,U5,FP6298,custom:FP6298,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm,
+,,U6,FS8205,custom:FS8205,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,
+,,U7,MCP4725-DAC7571,Analog_DAC:MCP4725xxx-xCH,Package_TO_SOT_SMD:SOT-23-6,http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf
+,,U8,LM386,Amplifier_Audio:LM386,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/lm386.pdf
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,1,BT1,Battery_Cell,Device:Battery_Cell,Livrary:CR1220_SMD,~
+2,5,"C1, C3, C4, C11, C14",100nF,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+3,2,"C2, C17",10uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_4x4.5,~
+4,6,"C5, C7, C8, C12, C13, C15",100uF,Device:C_Polarized,Capacitor_SMD:CP_Elec_5x5.3,~
+5,1,C6,470uF,Device:C_Polarized,Capacitor_Tantalum_SMD:CP_EIA-7360-38_Kemet-E_Pad2.25x4.25mm_HandSolder,~
+6,1,C9,470uF,Device:C_Polarized,Capacitor_Tantalum_SMD:CP_EIA-7360-38_Kemet-E,~
+7,1,C10,47uF,Device:C,Capacitor_SMD:CP_Elec_4x4.5,~
+8,1,C16,47nF,Device:C,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+9,1,D1,SR540,Device:D_Shockley,Diode_SMD:D_SMA,~
+10,1,D2,1N4004,Diode:1N4001,Diode_SMD:D_SMB-SMC_Universal_Handsoldering,http://www.vishay.com/docs/88503/1n4001.pdf
+11,1,D4,STBY,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+12,1,D5,CHRG,Device:LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+13,1,J1,SD_Card,Connector:Micro_SD_Card_Det,Livrary:TF_SDCard,https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+14,1,J2,CTRL,Connector_Generic:Conn_01x04,Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,~
+15,1,J3,I2C,Connector_Generic:Conn_01x04,Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,~
+16,1,J4,BAT+,Connector_Generic:Conn_01x01,Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat,~
+17,1,J5,CHG+,Connector_Generic:Conn_01x01,Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat,~
+18,1,J6,BAT-,Connector_Generic:Conn_01x01,Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat,~
+19,1,J7,CHG-,Connector_Generic:Conn_01x01,Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat,~
+20,1,J8,POWER,Connector_Generic:Conn_01x03,Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal,~
+21,1,J9,SPK,Connector_Generic:Conn_01x02,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,~
+22,1,J10,GPIO,Connector_Generic:Conn_01x08,Connector_JST:JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal,~
+23,1,J11,DAC,Connector_Generic:Conn_01x03,Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal,~
+24,1,J12,I2C,Connector_Generic:Conn_01x04,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,~
+25,1,J13,BAT,Connector_Generic:Conn_01x02,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,~
+26,1,J14,USB_B_Micro,Connector:USB_B_Micro,Livrary:USB_Micro-B,~
+27,1,JP1,Short 5V,Jumper:Jumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,~
+28,1,JP2,FORCE PWR,Jumper:Jumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,~
+29,1,JP3,DAC A0,Jumper:Jumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+30,1,JP4,SEL,Jumper:Jumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+31,1,L1,3u3,Device:L_Ferrite,Inductor_SMD:L_10.4x10.4_H4.8,~
+32,6,"R1, R2, R3, R12, R13, R19",47K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+33,1,R4,75K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+34,1,R5,100,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+35,4,"R6, R7, R8, R16",1K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+36,1,R9,10K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+37,1,R10,33K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+38,1,R11,1K8,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+39,1,R14,7K5,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+40,1,R15,20K,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+41,1,R17,10,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+42,1,R18,1K2,Device:R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+43,1,SW1,WAKE,Switch:SW_Push,Livrary:SW_PUSH_TS_1224W,~
+44,1,SW2,RESET,Switch:SW_Push,Livrary:SW_Push_1P1T_Mini4x4x1.5,~
+45,1,SW3,SEL,Switch:SW_Push,Livrary:SW_PUSH_TS_1224W,~
+46,1,SW4,SWITCH,Switch:SW_SPDT,Livrary:SW_MSK_01S,~
+47,1,SW5,SWITCH,Switch:SW_SPDT,Livrary:SPDT_Small,~
+48,1,SW6,WAKE,Switch:SW_Push,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS,~
+49,1,SW7,SEL,Switch:SW_Push,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS,~
+50,1,U1,DS3231M,Timer_RTC:DS3231M,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,http://datasheets.maximintegrated.com/en/ds/DS3231.pdf
+51,1,U2,WT32-SC01,custom:WT32-SC01,Livrary:WS32-SC01-H,
+52,1,U3,DW01x,custom:DW01x,Package_TO_SOT_SMD:TSOT-23-6,
+53,1,U4,TP4056,custom:TP4056,Livrary:SOP-8_EP,
+54,1,U5,FP6298,custom:FP6298,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm,
+55,1,U6,FS8205,custom:FS8205,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,
+56,1,U7,MCP4725-DAC7571,Analog_DAC:MCP4725xxx-xCH,Package_TO_SOT_SMD:SOT-23-6,http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf
+57,1,U8,LM386,Amplifier_Audio:LM386,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/lm386.pdf
