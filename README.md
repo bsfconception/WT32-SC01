@@ -13,6 +13,7 @@ It includes the following features:
 - MCP4725 DAC + Speaker amplifier
 - I2C, IO, Control, Power connectors
 - Battery Voltage Senror
+- MicroUSB charging
 
 The PCB dimension fits to the WT32-SC01's.
 ![PCB_V1 1](https://user-images.githubusercontent.com/84618082/178008772-bc322595-49b6-4f7d-8436-ce15c46ad017.png)
@@ -30,7 +31,7 @@ The demo source code tests all the expansion board feature. The testing code is 
 - JPEG decoder and display
 - SD Card files acces control
 - SPIFF files acces control
-- RTC maangement
+- RTC management
 - Web Server with WiFi settings and control
 - ...
 
