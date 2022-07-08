@@ -1,52 +1,21 @@
-/* 
- * This file is part of the BSFConception distribution (https://github.com/bsfconception/WT32-SC01).
- * Copyright (c) 2022 BSF Conception - France
- * 
- * This program is free software: you can redistribute it and/or modify  
- * it under the terms of the GNU General Public License as published by  
- * the Free Software Foundation, version 3.
- *
- * This program is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of 
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License 
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
- 
-/***************************************/ 
-/***        User Setup BEGIN        ****/ 
-/***************************************/ 
- 
-#define __ORIENTATION__  1      // 0 : protrait mode, 1 : landscape mode
+#define __SEL_INVERT_PIN__
 
-// comment or uncomment the lines below to control features
-#define __MANAGE_SDCARD__       // mount the SD Card 
-#define __MANAGE_RTC__          // Initiate the RTC
-#define __MANAGE_WEB__          // enable the Wifi and enbeded web server
-#define __MANAGE_DAC__          // enable the DAC
 
-// if uncomment, it uses the LVGL libraries to display the interfaces and control thetouch screen and button
-// othewise only the TFT_eSPI lib are setup
-//#define __USE_LVGL__
+#define __ORIENTATION__  1
 
-// general purpose bebug flag
+#define __MANAGE_SDCARD__
+//#define __MANAGE_RTC__
+#define __MANAGE_WEB__
+//#define __MANAGE_DAC__
+
+#define __USE_LVGL__
+
 #define __DEBUG__
 
-
-// can be used to debug the function
 //#define __DEBUG_FCT__(a)  g_SerialDebug.println(__FUNCTION__)
 //#define __DEBUG_FCT__(a)  g_DisplayStack()
+
 #define __DEBUG_FCT__(a)
-
-// option to draw a rectange at the touch point 
-// #define DRAW_ON_SCREEN
-
-
-/***************************************/ 
-/***        User Setup END        ****/ 
-/***************************************/ 
 
 
 // Variables for touch x,y
@@ -122,8 +91,6 @@ void g_DisplayStack( void )
 }
 
 /***********************************************************************************************************************************/
-/*** Touchpad callback to read the touchpad ***/
-
 #ifdef __USE_LVGL__
   int GetKey( void )
   {
@@ -133,8 +100,42 @@ void g_DisplayStack( void )
     delay(10);
     return( BUTTON_NONE );
   }
+#else
+  int GetKey( void )
+  {
+  int res = 0;  
+    __DEBUG_FCT__();
+  
+    res = digitalRead( PIN_SEL );
+    #ifdef __SEL_INVERT_PIN__
+      if(res)
+        return( BUTTON_SEL );
+    #else
+      if(res == 0)
+        return( BUTTON_SEL );
+    #endif
   
   
+    res = digitalRead( PIN_WAKE );
+    if(res)
+      return( BUTTON_WAKE );
+  
+    return( BUTTON_NONE );
+  }
+  
+#endif
+
+
+/*** Function declaration ***/
+/*
+void display_flush(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p);
+//void touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data);
+void lv_button_demo(void);
+*/
+
+
+/*** Touchpad callback to read the touchpad ***/
+#ifdef __USE_LVGL__
   void touchpad_read(lv_indev_drv_t * indev_driver, lv_indev_data_t * data)
   {
     if( ! g_ts.touched() )   
@@ -167,44 +168,30 @@ void g_DisplayStack( void )
   static void lv_tick_task(void)
   {
    lv_tick_inc(portTICK_RATE_MS);
-  }  
-  
-#else
-  int GetKey( void )
-  {
-  int res = 0;  
-    __DEBUG_FCT__();
-  
-    res = digitalRead( PIN_SEL );
-    if(res == 0)
-      return( BUTTON_SEL );
-  
-  
-    res = digitalRead( PIN_WAKE );
-    if(res)
-      return( BUTTON_WAKE );
-  
-    return( BUTTON_NONE );
   }
-  
+
 #endif
-
-
-
-
 
 void setup(void)
 {
   Serial.begin(115200); /* prepare for possible serial debug */
   Serial.println("Starting WT32+Addon");
 
-  pinMode( PIN_SEL, INPUT_PULLUP );
+  #ifdef __SEL_INVERT_PIN__
+    pinMode( PIN_SEL, INPUT );
+  #else
+    pinMode( PIN_SEL, INPUT_PULLUP );
+  #endif
   pinMode( PIN_WAKE, INPUT );
   pinMode( PIN_BATTERY, INPUT);  
   
   pinMode(TFT_BL, OUTPUT);
   digitalWrite(TFT_BL, LOW);
   digitalWrite(TFT_BL, 128);
+
+  // init i2C communication 
+  Wire.begin(PIN_SDA, PIN_SCL);
+
   
 // Begind DISABLE THIS LINE TO SCAN THE I2C DEvIcES
 //  _I2C_Scan();
@@ -238,19 +225,13 @@ void setup(void)
     _SD_MountSDCard();
   #endif
 
-  // Pins 18/19 are SDA/SCL for touch sensor on this device
-  // 40 is a touch threshold
-  if (!g_ts.begin(PIN_SDA, PIN_SCL, 40)) 
-  {
-    Serial.println("Couldn't start touchscreen controller");
-  }
 
   #ifdef __MANAGE_RTC__
     _RTC_Init();
   #endif
 
   #ifdef __MANAGE_DAC__
-    if (_MCP_setup == false)
+    if (_MCP_setup() == 0)
     {
       Serial.println("Could not find DAC");
     }
@@ -266,9 +247,6 @@ void setup(void)
 #ifdef __MANAGE_WEB__
     setupWifi();
 #endif
-
-
-// Draw the user interface ... to be customized
 
   #ifdef __USE_LVGL__
     /*** Create simple label and show LVGL version ***/

@@ -1,3 +1,5 @@
+#define __SEL_INVERT_PIN__
+
 #define __MANAGE_SDCARD__
 #define __MANAGE_RTC__
 #define __MANAGE_WEB__
@@ -65,8 +67,13 @@ int GetKey( void )
 int res = 0;  
 
   res = digitalRead( PIN_SEL );
-  if(res == 0)
-    return( BUTTON_SEL );
+  #ifdef __SEL_INVERT_PIN__
+    if(res)
+      return( BUTTON_SEL );
+  #else
+    if(res == 0)
+      return( BUTTON_SEL );
+  #endif
 
 
   res = digitalRead( PIN_WAKE );
@@ -81,12 +88,24 @@ void setup() {
   Serial.begin(115200);
   Serial.println("Starting WT32+Addon");
 
-  pinMode( PIN_SEL, INPUT_PULLUP );
-    pinMode( PIN_WAKE, INPUT );
+  Serial.print("SDA:");
+  Serial.println((int)PIN_SDA);
+  Serial.print("SCL:");
+  Serial.println((int)PIN_SCL);
+
+  #ifdef __SEL_INVERT_PIN__
+    pinMode( PIN_SEL, INPUT );
+  #else
+    pinMode( PIN_SEL, INPUT_PULLUP );
+  #endif
+  pinMode( PIN_WAKE, INPUT );
   pinMode( PIN_BATTERY, INPUT);  
   
   pinMode(TFT_BL, OUTPUT);
   digitalWrite(TFT_BL, LOW);
+
+  // init i2C communication 
+  Wire.begin(PIN_SDA, PIN_SCL);
   
 // Begind DISABLE THIS LINE TO SCAN THE I2C DEvIcES
 //  _I2C_Scan();
@@ -111,6 +130,8 @@ void setup() {
     _SD_MountSDCard();
   #endif
 
+
+
   #ifdef __MANAGE_LCD__
     // Pins 18/19 are SDA/SCL for touch sensor on this device
     // 40 is a touch threshold
@@ -118,9 +139,6 @@ void setup() {
     {
       Serial.println("Couldn't start touchscreen controller");
     }
-  #else
-        // init i2C communication 
-    Wire.begin(PIN_SDA, PIN_SCL);
   #endif
 
   #ifdef __MANAGE_RTC__
@@ -128,7 +146,7 @@ void setup() {
   #endif
 
   #ifdef __MANAGE_DAC__
-    if (_MCP_setup == false)
+    if (_MCP_setup() == 0)
     {
       Serial.println("Could not find DAC");
     }
