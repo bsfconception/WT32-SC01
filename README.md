@@ -1,4 +1,4 @@
-# WT32-SC01 Expansion Board
+# WT32-SC01 Extension Board
 
 ## Expansion board for the WT32-SC01 Dev Kit
 
@@ -13,10 +13,12 @@ It includes the following features:
 - MCP4725 DAC + Speaker amplifier
 - I2C, IO, Control, Power connectors
 - Battery Voltage Senror
+- MicroUSB charging
 
 The PCB dimension fits to the WT32-SC01's.
-![PCB_cnt](https://user-images.githubusercontent.com/84618082/171991256-95f700ce-6a8f-4fe4-9719-ac3704c6d6b5.jpg)
-![PCB3D](https://user-images.githubusercontent.com/84618082/171991262-c997b919-290f-492b-8c03-d610d510bfbd.jpg)
+![PCB_V1 1](https://user-images.githubusercontent.com/84618082/178008772-bc322595-49b6-4f7d-8436-ce15c46ad017.png)
+![PCB_2](https://user-images.githubusercontent.com/84618082/178008804-43db00e3-7fa0-45bc-aafb-9cc116324780.jpg)
+
 
 
 
@@ -29,7 +31,7 @@ The demo source code tests all the expansion board feature. The testing code is 
 - JPEG decoder and display
 - SD Card files acces control
 - SPIFF files acces control
-- RTC maangement
+- RTC management
 - Web Server with WiFi settings and control
 - ...
 
@@ -42,7 +44,8 @@ The Powwer consumption of the entire system (WT32 + Expansion board) have been p
 - Light Sleep Mode : 80 mA
 
 These measurements are performed using the provided test code.
-![WT32_PinOut](https://user-images.githubusercontent.com/84618082/171991270-e8a274b4-90a0-4d45-b052-a17b18b785e3.png)
+![Pinout](https://user-images.githubusercontent.com/84618082/178008853-b726c6a8-c3a5-43ba-b987-e3e57cf9d6bb.png)
+
 
 
 ### Important Notice : Power OFF the on board power supply during the programming
@@ -52,10 +55,9 @@ the PCB can be purchased here :
 
 https://www.etsy.com/fr/listing/1239499505/wt32-sc01-expansion-board-pcb-only
 
-https://www.tindie.com/products/blacksfactory/wt32-sc01-expansion-board-pcb-only/
+https://www.tindie.com/products/blacksfactory/wt32-sc01-expansion-pcb-v11/
 
 The current repo includes also additional file to enclose the WT32 with the board and maange the battery charging :
-![IMG_20220603_165824](https://user-images.githubusercontent.com/84618082/171991297-3b7ad8bd-ed56-42aa-a7ef-7966c8f96caa.jpg)
 ![IMG_20220603_190443](https://user-images.githubusercontent.com/84618082/171991305-c7984d57-45f8-4f77-8732-01891abf1b96.jpg)
 ![IMG_20220603_190458](https://user-images.githubusercontent.com/84618082/171991308-a0f0558f-5b66-437b-a4ff-4b37b8273da0.jpg)
 ![WT32_SC01_V0](https://user-images.githubusercontent.com/84618082/171991329-1f8d4e8e-22a2-4803-aea3-f63e086c694c.png)
