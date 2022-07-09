@@ -2,7 +2,7 @@ You'll find here a example of 3D printed box and holder to insert the WT32
 
 Below some illustration of the mounting and results : 
 
-Assuming that the 3mm inserts are soltered on the WT32 main PCB :
+Solter 3mm inserts on the WT32 main PCB :
 ![IMG_20220602_192528](https://user-images.githubusercontent.com/84618082/171989713-29c48a33-97ba-4bf7-9a62-ae9d12b1475f.jpg)
 
 3D printed box :
