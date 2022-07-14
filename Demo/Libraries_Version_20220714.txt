@@ -1,0 +1,725 @@
+C:\Users\Eric Coste\Documents\Arduino\libraries\Adafruit_Fingerprint_Sensor_Library\library.properties
+      1: name=Adafruit Fingerprint Sensor Library
+      2: version=2.0.3
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Arduino library for interfacing to the fingerprint sensor in the Adafruit shop
+      6: paragraph=Arduino library for interfacing to the fingerprint sensor in the Adafruit shop
+      7: category=Sensors
+      8: url=https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit_FT6206_Library-master\library.properties
+      1: name=Adafruit FT6206 Library
+      2: version=1.0.6
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Arduino library for FT6206-based Capacitive touch screen
+      6: paragraph=Arduino library for FT6206-based Capacitive touch screen
+      7: category=Display
+      8: url=https://github.com/adafruit/Adafruit_FT6206_Library
+      9: architectures=*
+     10: depends=Adafruit ILI9341, Adafruit GFX Library
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit_HMC5883_Unified\library.properties
+      1: name=Adafruit HMC5883 Unified
+      2: version=1.2.0
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Adafruit HMC5883L 3-Axis Magnetometer Breakout library using Adafruit's Unified Sensor Library.
+      6: paragraph=Adafruit HMC5883L 3-Axis Magnetometer Breakout library using Adafruit's Unified Sensor Library.
+      7: category=Sensors
+      8: url=https://github.com/adafruit/Adafruit_HMC5883_Unified
+      9: architectures=*
+     10: depends=Adafruit Unified Sensor
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit_ILI9341-master\library.properties
+      1: name=Adafruit ILI9341
+      2: version=1.5.6
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Library for Adafruit ILI9341 displays
+      6: paragraph=Library for Adafruit ILI9341 displays
+      7: category=Display
+      8: url=https://github.com/adafruit/Adafruit_ILI9341
+      9: architectures=*
+     10: depends=Adafruit GFX Library, Adafruit STMPE610, Adafruit TouchScreen
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit_NeoPixel\library.properties
+      1: name=Adafruit NeoPixel
+      2: version=1.8.2
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Arduino library for controlling single-wire-based LED pixels and strip.
+      6: paragraph=Arduino library for controlling single-wire-based LED pixels and strip.
+      7: category=Display
+      8: url=https://github.com/adafruit/Adafruit_NeoPixel
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit_Sensor-master\library.properties
+      1: name=Adafruit Unified Sensor
+      2: version=1.1.2
+      3: author=Adafruit <info@adafruit.com>
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Required for all Adafruit Unified Sensor based libraries.
+      6: paragraph=A unified sensor abstraction layer used by many Adafruit sensor libraries.
+      7: category=Sensors
+      8: url=https://github.com/adafruit/Adafruit_Sensor
+      9: architectures=*
+     10: includes=Adafruit_Sensor.h
+     11: depends=Adafruit ADXL343
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit_SSD1306\library.properties
+      1: name=Adafruit SSD1306
+      2: version=2.4.0
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=SSD1306 oled driver library for monochrome 128x64 and 128x32 displays
+      6: paragraph=SSD1306 oled driver library for monochrome 128x64 and 128x32 displays
+      7: category=Display
+      8: url=https://github.com/adafruit/Adafruit_SSD1306
+      9: architectures=*
+     10: depends=Adafruit GFX Library
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit-GFX-Library-master\library.properties
+      1: name=Adafruit GFX Library
+      2: version=1.6.0
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Adafruit GFX graphics core library, this is the 'core' class that all our other graphics libraries derive from.
+      6: paragraph=Install this library in addition to the display library for your hardware.
+      7: category=Display
+      8: url=https://github.com/adafruit/Adafruit-GFX-Library
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit-PCD8544-Nokia-5110-LCD-library-master\library.properties
+      1: name=Adafruit PCD8544 Nokia 5110 LCD library
+      2: version=1.1.1
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Arduino driver for PC8544, most commonly found in small Nokia 5110's
+      6: paragraph=Arduino driver for PC8544, most commonly found in small Nokia 5110's
+      7: category=Display
+      8: url=https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit-PWM-Servo-Driver-Library-master\library.properties
+      1: name=Adafruit PWM Servo Driver Library
+      2: version=2.0.0
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Adafruit PWM Servo Driver Library
+      6: paragraph=Adafruit PWM Servo Driver Library
+      7: category=Device Control
+      8: url=https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit-ST7735-Library-master\library.properties
+      1: name=Adafruit ST7735 and ST7789 Library
+      2: version=1.9.3
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=This is a library for the Adafruit ST7735 and ST7789 SPI displays.
+      6: paragraph=This is a library for the Adafruit ST7735 and ST7789 SPI displays.
+      7: category=Display
+      8: url=https://github.com/adafruit/Adafruit-ST7735-Library
+      9: architectures=*
+     10: depends=Adafruit GFX Library, Adafruit seesaw Library, SD
+C:\Users\xxx\Documents\Arduino\libraries\arduinoFFT\library.properties
+      1: name=arduinoFFT
+      2: version=1.5.6
+      3: author=Enrique Condes <enrique@shapeoko.com>
+      4: maintainer=Enrique Condes <enrique@shapeoko.com>
+      5: sentence=A library for implementing floating point Fast Fourier Transform calculations on Arduino.
+      6: paragraph=With this library you can calculate the frequency of a sampled signal.
+      7: category=Data Processing
+      8: url=https://github.com/kosme/arduinoFFT
+      9: architectures=*
+     10: includes=arduinoFFT.h
+C:\Users\xxx\Documents\Arduino\libraries\ArduinoJson\library.properties
+      1: name=ArduinoJson
+      2: version=6.19.1
+      3: author=Benoit Blanchon <blog.benoitblanchon.fr>
+      4: maintainer=Benoit Blanchon <blog.benoitblanchon.fr>
+      5: sentence=A simple and efficient JSON library for embedded C++.
+      6: paragraph=ArduinoJson supports ? serialization, ? deserialization, ? MessagePack, ? fixed allocation, ? zero-copy, ? streams, ? filtering, and more. It is the most popular Arduino library on GitHub ?????. Check out arduinojson.org for a comprehensive documentation.
+      7: category=Data Processing
+      8: url=https://arduinojson.org/?utm_source=meta&utm_medium=library.properties
+      9: architectures=*
+     10: repository=https://github.com/bblanchon/ArduinoJson.git
+     11: license=MIT
+C:\Users\xxx\Documents\Arduino\libraries\ArduinoJson-5.13.2\library.properties
+      1: name=ArduinoJson
+      2: version=5.13.2
+      3: author=Benoit Blanchon <blog.benoitblanchon.fr>
+      4: maintainer=Benoit Blanchon <blog.benoitblanchon.fr>
+      5: sentence=An efficient and elegant JSON library for Arduino.
+      6: paragraph=ArduinoJson supports ? serialization, ? deserialization, ? fixed allocation, ? zero-copy, ? streams, and more. It is the most popular Arduino library on GitHub ?????. Check out arduinojson.org for a comprehensive documentation.
+      7: category=Data Processing
+      8: url=https://arduinojson.org/?utm_source=meta&utm_medium=library.properties
+      9: architectures=*
+     10: repository=https://github.com/bblanchon/ArduinoJson.git
+     11: license=MIT
+C:\Users\xxx\Documents\Arduino\libraries\ArduinoWebsockets\library.properties
+      1: name=ArduinoWebsockets
+      2: version=0.5.3
+      3: author=Gil Maimon <mail.gilmaimon@gmail.com>
+      4: maintainer=Gil Maimon <mail.gilmaimon@gmail.com>
+      5: sentence=A library for writing modern Websockets applications with Arduino.
+      6: paragraph=Featuring modern callbacks (supports lambdas) and a minimal interface. Contains a websockets Client and Server. Supports all features of the RFC (pings, pongs, binary and text data, error codes) and WSS (Websockets over SSL).
+      7: category=Communication
+      8: url=https://github.com/gilmaimon/ArduinoWebsockets
+      9: includes=ArduinoWebsockets.h
+C:\Users\xxx\Documents\Arduino\libraries\async-mqtt-client-master\library.properties
+      1: name=AsyncMqttClient
+      2: version=0.8.2
+      3: author=Marvin ROGER
+      4: maintainer=Marvin ROGER
+      5: sentence=An Arduino for ESP8266 and ESP32 asynchronous MQTT client implementation
+      6: paragraph=Like this project? Please star it on GitHub!
+      7: category=Communication
+      8: url=https://github.com/marvinroger/async-mqtt-client
+      9: architectures=esp8266,esp32
+C:\Users\xxx\Documents\Arduino\libraries\AsyncTCP-master\library.properties
+      1: name=AsyncTCP
+      2: version=1.1.1
+      3: author=Me-No-Dev
+      4: maintainer=Me-No-Dev
+      5: sentence=Async TCP Library for ESP32
+      6: paragraph=Async TCP Library for ESP32
+      7: category=Other
+      8: url=https://github.com/me-no-dev/AsyncTCP
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\AXP202X_Library-master\library.properties
+      1: name=AXP202X_Library
+      2: version=1.1.2
+      3: author=Lewis He
+      4: maintainer=Lewis He <lewishe@outlook.com>
+      5: sentence=Arduino library for X-Power AXP202 chip
+      6: paragraph=Arduino library for X-Power AXP202 chip. Tested with ESP32
+      7: category=Communication
+      8: url=https://github.com/lewisxhe/AXP202X_Library
+      9: architectures=esp32
+C:\Users\xxx\Documents\Arduino\libraries\Battery_Shield-1.0.3\library.properties
+      1: name =			Battery_Shield (?????? ? ?????????? ??????????? ???????)
+      2: version =		1.0.3
+      3: author =		iarduino <shop@iarduino.ru>
+      4: maintainer =	??????? ????? <shop@iarduino.ru>
+      5: sentence =		?????????? ??? ?????? ? Battery Shield - ?????????? ??????????? ??????? (???).
+      6: paragraph =		????????? ????????? ?????????? ??????????? ??????? ?? ???? I2C, ????????? ???, ????????/????????? ??, ???????? ???????? Ibat, Vbat, Iout, Vout, % ?????? ????????????, ??????? ??? ?????? ???????????? (TK, CC, CV).
+      7: category =		Device Control
+      8: url =			http://iarduino.ru/file/344.html
+      9: architectures =	avr,esp8266,esp32
+     10: includes =      Battery_Shield.h
+C:\Users\xxx\Documents\Arduino\libraries\Ch376msc-master\library.properties
+      1: name=Ch376msc
+      2: version=1.4.0
+      3: author=György Kovács
+      4: maintainer=György Kovács <djusee@gmail.com>
+      5: sentence=A library for CH376 file manage control chip.
+      6: paragraph=Supports UART and SPI communication with the chip, read/write text files to USB flash drive.
+      7: category=Data Storage
+      8: url=https://github.com/djuseeq/Ch376msc/
+      9: architectures=avr
+C:\Users\xxx\Documents\Arduino\libraries\DallasTemperature\library.properties
+      1: name=DallasTemperature
+      2: version=3.8.0
+      3: author=Miles Burton <miles@mnetcs.com>, Tim Newsome <nuisance@casualhacker.net>, Guil Barros <gfbarros@bappos.com>, Rob Tillaart <rob.tillaart@gmail.com>
+      4: maintainer=Miles Burton <miles@mnetcs.com>
+      5: sentence=Arduino Library for Dallas Temperature ICs
+      6: paragraph=Supports DS18B20, DS18S20, DS1822, DS1820
+      7: category=Sensors
+      8: url=https://github.com/milesburton/Arduino-Temperature-Control-Library
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\DHT_sensor_library\library.properties
+      1: name=DHT sensor library
+      2: version=1.3.8
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors
+      6: paragraph=Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors
+      7: category=Sensors
+      8: url=https://github.com/adafruit/DHT-sensor-library
+      9: architectures=*
+     10: depends=Adafruit Unified Sensor
+C:\Users\xxx\Documents\Arduino\libraries\eeprom_rotate-master\library.properties
+      1: name=EEPROM_Rotate
+      2: version=0.9.1
+      3: author=Xose Pérez <xose.perez@gmail.com>
+      4: maintainer=Xose Pérez <xose.perez@gmail.com>
+      5: sentence=EEPROM wrapper for ESP8266 that handles sector rotation
+      6: paragraph=Prevents data corruption and flash wear out
+      7: category=Data Storage
+      8: url=https://github.com/xoseperez/eeprom_rotate.git
+      9: architectures=esp8266
+     10: includes=EEPROM_Rotate.h
+C:\Users\xxx\Documents\Arduino\libraries\embedis-master\library.properties
+      1: name=Embedis
+      2: version=1.2.0
+      3: author=David Turnbull, Tom Moxon
+      4: maintainer=The PatternAgents, LLC <patternagents@gmail.com>
+      5: sentence=An Embedded Dictionary Server.
+      6: paragraph=Provides a command line interface and persistent key-value store.
+      7: category=Other
+      8: url=https://github.com/thingSoC/embedis
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\esp32-waveshare-epd\library.properties
+      1: name=waveshare-e-Paper
+      2: version=1.0.0
+      3: author=waveshare
+      4: maintainer=waveshare <www.waveshare.net>
+      5: sentence=waveshare e-Paper.
+      6: paragraph=Use this library to drive e-Paper and display it using the e-Paper module</br>
+      7: category=Display
+      8: url=http://www.waveshare.net/search.html?kw=e-paper
+      9: architectures=esp32
+C:\Users\xxx\Documents\Arduino\libraries\esp8266-alexa-wemo-emulator-master\library.properties
+      1: name=Esp8266AlexaWemoEmulator
+      2: version=1.0
+      3: author=Brian Lough
+      4: maintainer=Brian Lough <brian.d.lough@gmail.com>
+      5: sentence=Use your esp8266 with the Alexa by emulating a Wemo plug
+      6: paragraph=Use your esp8266 with the Alexa by emulating a Wemo plug
+      7: category=Communication
+      8: url=https://github.com/witnessmenow/esp8266-alexa-wemo-emulator.git
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\ESPAsyncTCP-master\library.properties
+      1: name=ESP AsyncTCP
+      2: version=1.1.0
+      3: author=Me-No-Dev
+      4: maintainer=Me-No-Dev
+      5: sentence=Async TCP Library for ESP8266 and ESP31B
+      6: paragraph=Async TCP Library for ESP8266 and ESP31B
+      7: category=Other
+      8: url=https://github.com/me-no-dev/ESPAsyncTCP
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\ESPAsyncWebServer-master\library.properties
+      1: name=ESP Async WebServer
+      2: version=1.1.0
+      3: author=Me-No-Dev
+      4: maintainer=Me-No-Dev
+      5: sentence=Async Web Server for ESP8266 and ESP31B
+      6: paragraph=Async Web Server for ESP8266 and ESP31B
+      7: category=Other
+      8: url=https://github.com/me-no-dev/ESPAsyncWebServer
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\ESPxWebFlMgr-master\library.properties
+      1: name=ESP8266 Web File Manager
+      2: version=1.3.5
+      3: author=Holger Lembke
+      4: maintainer=Holger Lembke <holger@lembke.eu>
+      5: sentence=Manage your SPIFFS/LittleFS files with a simple web based interface
+      6: paragraph=TL;DR
+      7: category=Other
+      8: url=https://github.com/holgerlembke/ESP8266WebFlMgr
+      9: architectures=*
+     10: dot_a_linkage=true
+C:\Users\xxx\Documents\Arduino\libraries\FastLED-master\library.properties
+      1: name=FastLED
+      2: version=3.4.0
+      3: author=Daniel Garcia
+      4: maintainer=Daniel Garcia <dgarcia@fastled.io>
+      5: sentence=Multi-platform library for controlling dozens of different types of LEDs along with optimized math, effect, and noise functions.
+      6: paragraph=Multi-platform library for controlling dozens of different types of LEDs along with optimized math, effect, and noise functions.
+      7: category=Display
+      8: url=https://github.com/FastLED/FastLED
+      9: architectures=*
+     10: includes=FastLED.h
+C:\Users\xxx\Documents\Arduino\libraries\FauxmoESP\library.properties
+      1: name=FauxmoESP
+      2: version=3.2
+      3: author=Xose Pérez <xose.perez@gmail.com>
+      4: maintainer=Paul Vint <paul@vintlabs.com>
+      5: sentence=Amazon Alexa support for ESP8266 and ESP32
+      6: paragraph=
+      7: category=Communication
+      8: url=https://github.com/vintlabs/fauxmoESP
+      9: architectures=esp8266,esp32
+     10: includes=fauxmoESP.h
+C:\Users\xxx\Documents\Arduino\libraries\Freenove_WS2812_Lib_for_ESP32\library.properties
+      1: name=Freenove WS2812 Lib for ESP32
+      2: version=1.0.2
+      3: author=Freenove
+      4: maintainer=Freenove <rd@freenove.com>
+      5: sentence=An Arduino library for WS2812 led on ESP32.<br />
+      6: paragraph=This is an Arduino library for controlling ws2812b led on esp32.
+      7: category=Display
+      8: url=https://github.com/Freenove/Freenove_WS2812_Lib_for_ESP32
+      9: architectures=esp32
+     10: includes=Freenove_WS2812_Lib_for_ESP32.h
+C:\Users\xxx\Documents\Arduino\libraries\GxEPD2-master\library.properties
+      1: name=GxEPD2
+      2: version=1.2.13
+      3: author=Jean-Marc Zingg
+      4: maintainer=Jean-Marc Zingg
+      5: sentence=Arduino Display Library for SPI E-Paper displays from Dalian Good Display and Waveshare.
+      6: paragraph=Requires HW SPI and Adafruit_GFX. Caution: the bare e-paper panels require 3.3V supply AND data lines!
+      7: category=Display
+      8: url=https://github.com/ZinggJM/GxEPD2
+      9: architectures=*
+     10: depends=Adafruit GFX Library
+     12: dependencies.Adafruit_GFX_RK=1.3.5
+C:\Users\xxx\Documents\Arduino\libraries\GxEPD-master\library.properties
+      1: name=GxEPD
+      2: version=3.1.0
+      3: author=Jean-Marc Zingg
+      4: maintainer=Jean-Marc Zingg
+      5: sentence=Display Library for SPI e-paper panels from Dalian Good Display and boards from Waveshare.
+      6: paragraph=GxEPD2 is better suited for new users or new projects!
+      7: category=Display
+      8: url=https://github.com/ZinggJM/GxEPD
+      9: architectures=*
+     10: depends=Adafruit GFX Library
+     12: dependencies.Adafruit_GFX_RK=1.3.5
+C:\Users\xxx\Documents\Arduino\libraries\hd44780-master\library.properties
+      1: name=hd44780
+      2: version=1.1.0
+      3: author=Bill Perry <bperrybap@opensource.billsworld.billandterrie.com>
+      4: maintainer=Bill Perry <bperrybap@opensource.billsworld.billandterrie.com>
+      5: sentence=Extensible hd44780 LCD library.
+      6: paragraph=hd44780 is an extensible LCD library for hd44780 based LCD displays. The API functionality provided by the hd44780 library class, when combined with an hd44780 library i/o subclass, is compatible with the API functionality of the Arduino LiquidCrystal library as well as most of the LCD API 1.0 Specification. The hd44780 API also provides some addtional extensions, including return status for API functions, ability to read from the LCD, and ability to configure the LCD command execution timing. hd44780 currently includes i/o subclasses for Arduino direct pin control, i2c expander backpacks, and LCDs with native i2c interface. keywords: hd44780 lcd i2c display hd44780_I2Cexp hd44780_pinIO hd44780_I2Clcd LiquidCrystal Bill Perry bperrybap duinowitchery
+      7: category=Display
+      8: url=https://github.com/duinoWitchery/hd44780
+      9: architectures=*
+     10: includes=hd44780.h
+C:\Users\xxx\Documents\Arduino\libraries\Heltec_ESP8266_Dev-Boards\library.properties
+      1: name=Heltec ESP8266 Dev-Boards
+      2: version=1.0.3
+      3: author= Heltec Automation
+      4: maintainer=HelTec <support@heltec.cn>
+      5: sentence=Library for Heltec ESP8266 based boards
+      6: paragraph=Include, WiFi Kit 8, see more on http://heltec.cn
+      7: category=Device Control
+      8: url=https://github.com/HelTecAutomation/Heltec_ESP32.git
+      9: architectures=esp8266
+     10: includes=heltec.h
+C:\Users\xxx\Documents\Arduino\libraries\INA219_WE\library.properties
+      1: name=INA219_WE
+      2: version=1.2.6
+      3: author=Wolfgang Ewald <wolfgang.ewald@wolles-elektronikkiste.de>
+      4: maintainer=Wolfgang Ewald <wolfgang.ewald@wolles-elektronikkiste.de>
+      5: sentence=A library for the INA219 current sensor module
+      6: paragraph=It allows to set various ADC modes, gains and bus voltage ranges. Continous mode, triggered mode, power down and ADC off mode are supported.
+      7: category=Sensors
+      8: url=https://github.com/wollewald/INA219_WE
+      9: architectures=*
+     10: includes=INA219_WE.h
+C:\Users\xxx\Documents\Arduino\libraries\IniFile-master\library.properties
+      1: name=IniFile
+      2: version=1.2.2
+      3: author=Steve Marple <stevemarple@googlemail.com>
+      4: maintainer=Steve Marple <stevemarple@googlemail.com>
+      5: sentence=Library to read and parse .ini files.
+      6: paragraph=IniFile is a library to read and parse .ini files as used by Microsoft Windows. IniFile is designed to use minimal memory requirements, and the only buffer used is one supplied by the user, thus the user remains in charge of memory usage. GNU LGPL v2.1.
+      7: category=Other
+      8: url=https://github.com/stevemarple/IniFile
+      9: architectures=*
+     10: depends=SD
+C:\Users\xxx\Documents\Arduino\libraries\IRremote\library.properties
+      1: name=IRremote
+      2: version=2.6.1
+      3: author=shirriff, z3t0 <zetoslab@gmail.com>
+      4: maintainer=Armin Joachimsmeyer <armin.joachimsmeyer@gmail.com>
+      5: sentence=Send and receive infrared signals with multiple protocols
+      6: paragraph=Currently included protocols: Aiwa, BoseWave, Denon, Dish, JVC, Lego, LG, MagiQuest, Mitsubishi, Panasonic, RC5, RC6, Samsung, Sanyo, Sharp, Sony, Whynter, (Pronto).<br/><br/><b>New:</b>ESP32 bug fixed, corrected Samsung timing, NEC repeat implementation.<br/>
+      7: category=Communication
+      8: url=https://github.com/z3t0/Arduino-IRremote
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\JPEGDecoder-master\library.properties
+      1: name=JPEGDecoder
+      2: version=1.8.1
+      3: author=Bodmer <bodmer@anola.net>, Makoto Kurauchi, Rich Geldreich
+      4: maintainer=Bodmer
+      5: sentence= Jpeg decoder tested with Arduino Mega, Arduino Due and ESP8266 based NodeMCU 1.0
+      6: paragraph=Decodes jpeg images stored in arrays, SD card files and SPIFFS files
+      7: category=Display
+      8: url=https://github.com/Bodmer/JPEGDecoder
+      9: architectures=*
+     10: includes=JPEGDecoder.h
+C:\Users\xxx\Documents\Arduino\libraries\justwifi-master\library.properties
+      1: name=JustWifi
+      2: version=2.0.1
+      3: author=Xose Pérez <xose.perez@gmail.com>
+      4: maintainer=Xose Pérez <xose.perez@gmail.com>
+      5: sentence=Wifi Manager for ESP8266
+      6: paragraph=Supports multiple wifi networks, scan for strongest signal, WPS and SmartConfig
+      7: category=Communication
+      8: url=https://github.com/xoseperez/justwifi.git
+      9: architectures=esp8266
+     10: includes=JustWifi.h
+C:\Users\xxx\Documents\Arduino\libraries\Low-Power-master\library.properties
+      1: name=Low-Power
+      2: version=1.6
+      3: author=Rocket Scream Electronics
+      4: maintainer=Rocket Scream Electronics
+      5: sentence=Lightweight power management library
+      6: paragraph=Lightweight power management library
+      7: category=Other
+      8: url=https://github.com/rocketscream/Low-Power
+      9: architectures=avr,samd
+C:\Users\xxx\Documents\Arduino\libraries\lv_examples\library.properties
+      1: name=lv_examples
+      2: version=8.1.0
+      3: author=kisvegabor
+      4: maintainer=kisvegabor,embeddedt
+      5: sentence=Examples for LVGL grapics library
+      6: paragraph=Demos and examples to see and try the features of LVGL embedded GUI library.
+      7: category=Display
+      8: url=https://lvgl.io
+      9: architectures=*
+     10: includes=lv_demo.h
+     11: depends=lvgl
+C:\Users\xxx\Documents\Arduino\libraries\lvgl\library.properties
+      1: name=lvgl
+      2: version=8.2.0
+      3: author=kisvegabor
+      4: maintainer=kisvegabor,embeddedt,pete-pjb
+      5: sentence=Full-featured Graphics Library for Embedded Systems
+      6: paragraph=Powerful and easy-to-use embedded GUI with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash).
+      7: category=Display
+      8: url=https://lvgl.io
+      9: architectures=*
+     10: includes=lvgl.h
+C:\Users\xxx\Documents\Arduino\libraries\MCP4725\library.properties
+      1: name=MCP4725
+      2: version=0.3.3
+      3: author=Rob Tillaart <rob.tillaart@gmail.com>
+      4: maintainer=Rob Tillaart <rob.tillaart@gmail.com>
+      5: sentence=Arduino library for 12 bit I2C DAC - MCP4725
+      6: paragraph=
+      7: category=Sensors
+      8: url=https://github.com/RobTillaart/MCP4725
+      9: architectures=*
+     10: includes=MCP4725.h
+     11: depends=
+C:\Users\xxx\Documents\Arduino\libraries\NeoGPS\library.properties
+      1: name=NeoGPS
+      2: version=4.2.9
+      3: author=SlashDevin
+      4: maintainer=SlashDevin
+      5: sentence=NMEA and ublox GPS parser, configurable to use as few as 10 bytes of RAM
+      6: paragraph=Faster and smaller than all other GPS parsers
+      7: category=Communication
+      8: url=https://github.com/SlashDevin/NeoGPS
+      9: architectures=avr,samd,sam,esp8266,arc32,esp32
+     10: includes=NMEAGPS.h
+C:\Users\xxx\Documents\Arduino\libraries\NtpClient-develop\library.properties
+      1: name=NtpClientLib
+      2: version=2.5.0
+      3: author=German Martin
+      4: maintainer=German Martin
+      5: sentence=Ntp Client Library
+      6: paragraph=Library to get system sync from a NTP server. Based on code from NTP client example. Currently, it works on ESP8266 based boards. I've made it compatible with Arduino boards w Eternet module but I have not had the opportunity to test it. Please, add an issue to GitHub if you find a bug. NOTICE: After version 2.0.0 library structure has changed. Please refer to README file on github repository.
+      7: category=Timing
+      8: url=https://github.com/gmag11/NtpClient
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\NtpClientLib\library.properties
+      1: name=NtpClientLib
+      2: version=3.0.2-beta
+      3: author=German Martin
+      4: maintainer=German Martin
+      5: sentence=Ntp Client Library
+      6: paragraph=Library to get system sync from a NTP server. Based on code from NTP client example. Currently, it works on ESP8266 based boards. I've made it compatible with Arduino boards w Eternet module but I have not had the opportunity to test it. Please, add an issue to GitHub if you find a bug. NOTICE: After version 2.0.0 library structure has changed. Please refer to README file on github repository.
+      7: category=Timing
+      8: url=https://github.com/gmag11/NtpClient
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\OneWire-master\library.properties
+      1: name=OneWire
+      2: version=2.3.4
+      3: author=Jim Studt, Tom Pollard, Robin James, Glenn Trewitt, Jason Dangel, Guillermo Lovato, Paul Stoffregen, Scott Roberts, Bertrik Sikken, Mark Tillotson, Ken Butcher, Roger Clark, Love Nystrom
+      4: maintainer=Paul Stoffregen
+      5: sentence=Access 1-wire temperature sensors, memory and other chips.
+      6: paragraph=
+      7: category=Communication
+      8: url=http://www.pjrc.com/teensy/td_libs_OneWire.html
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\PCF8574_library\library.properties
+      1: name=PCF8574 library
+      2: version=2.2.2
+      3: author=Renzo Mischianti <renzo.mischianti@gmail.com>
+      4: maintainer=Renzo Mischianti <renzo.mischianti@gmail.com>
+      5: sentence=Arduino, ESP8266, smt32 and esp32 library for PCF8574
+      6: paragraph=i2c digital expander for Arduino, esp32, SMT32 and ESP8266. Can read write digital values with only 2 wire. Very simple to use and encoder support.
+      7: category=Sensors
+      8: url=https://www.mischianti.org/category/my-libraries/pcf8574/
+      9: repository=https://github.com/xreef/PCF8574_library
+     10: architectures=*
+     11: includes=PCF8574.h
+C:\Users\xxx\Documents\Arduino\libraries\rc-switch-master\library.properties
+      1: name=rc-switch
+      2: version=2.6.2
+      3: author=sui77
+      4: maintainer=sui77,fingolfin <noreply@sui.li>
+      5: sentence=Operate 433/315Mhz devices.
+      6: paragraph=Use your Arduino, ESP8266/ESP32 or Raspberry Pi to operate remote radio controlled devices. This will most likely work with all popular low cost power outlet sockets.
+      7: category=Device Control
+      8: url=https://github.com/sui77/rc-switch
+      9: architectures=avr,esp8266,esp32
+     10: includes=RCSwitch.h
+C:\Users\xxx\Documents\Arduino\libraries\RF24\library.properties
+      1: name=RF24
+      2: version=1.4.2
+      3: author=TMRh20
+      4: maintainer=TMRh20,Avamander
+      5: sentence=Radio driver, OSI layer 2 library for nrf24L01(+) modules.
+      6: paragraph=Core library for nRF24L01(+) communication. Simple to use for beginners, but offers advanced configuration options. Many examples are included to demonstrate various modes of communication.
+      7: category=Communication
+      8: url=https://nRF24.github.io/RF24/
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\Rtc_by_Makuna\library.properties
+      1: name=Rtc by Makuna
+      2: version=2.3.5
+      3: author=Michael C. Miller (makuna@live.com)
+      4: maintainer=Michael C. Miller (makuna@live.com)
+      5: sentence=A library that makes interfacing DS1302, DS1307, DS3231, and DS3234 Real Time Clock modules easy.
+      6: paragraph=Includes deep support of module features, including temperature, alarms and memory storage if present.  Tested on esp8266.
+      7: category=Device Control
+      8: url=https://github.com/Makuna/Rtc/wiki
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\RTClib\library.properties
+      1: name=RTClib
+      2: version=1.3.2
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=A fork of Jeelab's fantastic RTC library
+      6: paragraph=A fork of Jeelab's fantastic RTC library
+      7: category=Timing
+      8: url=https://github.com/adafruit/RTClib
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\RTCZero\library.properties
+      1: name=RTCZero
+      2: version=1.6.0
+      3: author=Arduino
+      4: maintainer=Arduino <info@arduino.cc>
+      5: sentence=Allows to use the RTC functionalities. For Arduino Zero, MKRZero and MKR1000 only.
+      6: paragraph=With this library you can use the RTC peripheral of an Arduino Zero or MKR1000 in order to program actions related to date and time.
+      7: category=Timing
+      8: url=http://www.arduino.cc/en/Reference/RTC
+      9: architectures=samd
+C:\Users\xxx\Documents\Arduino\libraries\SdFat\library.properties
+      1: name=SdFat
+      2: version=1.1.0
+      3: license=MIT
+      4: author=Bill Greiman <fat16lib@sbcglobal.net>
+      5: maintainer=Bill Greiman <fat16lib@sbcglobal.net>
+      6: sentence=FAT16/FAT32 file system for SD cards.
+      7: paragraph=FAT16/FAT32 file system for SD cards.
+      8: category=Data Storage
+      9: url=https://github.com/greiman/SdFat
+     10: repository=https://github.com/greiman/SdFat.git
+     11: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\StreamDebugger-1.0.1\library.properties
+      1: name=StreamDebugger
+      2: version=1.0.1
+      3: author=Volodymyr Shymanskyy
+      4: maintainer=Volodymyr Shymanskyy
+      5: sentence=Debugger for Arduino Stream-based communication
+      6: paragraph=This class is an Arduino Stream, that dumps all data to another Stream for debug purposes.
+      7: category=Communication
+      8: url=https://github.com/vshymanskyy/StreamDebugger
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\TFT_eSPI\library.properties
+      1: name=TFT_eSPI
+      2: version=2.4.32
+      3: author=Bodmer
+      4: maintainer=Bodmer
+      5: sentence=TFT graphics library for Arduino processors with performance optimisation for RP2040, STM32, ESP8266 and ESP32
+      6: paragraph=Supports TFT displays using drivers (ILI9341 etc) that operate with hardware SPI or 8 bit parallel.
+      7: category=Display
+      8: url=https://github.com/Bodmer/TFT_eSPI
+      9: architectures=*
+     10: includes=TFT_eSPI.h
+C:\Users\xxx\Documents\Arduino\libraries\TFT_ILI9163C-master\library.properties
+      1: name=TFT_ILI9163C
+      2: version=0.9
+      3: author=Max MC Costa
+      4: maintainer=sumotoy <sumotoy@gmail.com>
+      5: sentence=A fast SPI driver for TFT drived by ILI9163C, fully SPI Transaction compatible and very fast with Teensy 3
+      6: paragraph=This library works with many MCU's included Arduino's but it's particular fast with Teensy 3, Teensy 3.1.
+      7: category=Display
+      8: url=https://github.com/sumotoy/TFT_ILI9163C
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\TickTwo\library.properties
+      1: name=TickTwo
+      2: version=4.4.0
+      3: author=Stefan Staub
+      4: maintainer=Stefan Staub <email@domain.com>
+      5: sentence=A library for creating Tickers which can call repeating functions. Replaces delay() with non-blocking functions. Recommanded for ESP and Arduino boards with mbed behind.
+      6: paragraph=The Arduino Ticker Library allows you to create easily Ticker callbacks, which can call a function in a predetermined interval. You can change the number of repeats of the callbacks, if repeats is 0 the ticker runs in endless mode. Works like a "thread", where a secondary function will run when necessary. The library use no interupts of the hardware timers and works with the micros() / millis() function. You are not (really) limited in the number of Tickers.
+      7: category=Timing
+      8: url=https://github.com/sstaub/TickTwo
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\Time-master\library.properties
+      1: name=Time
+      2: version=1.5
+      3: author=Michael Margolis
+      4: maintainer=Paul Stoffregen
+      5: sentence=Timekeeping functionality for Arduino
+      6: paragraph=Date and Time functions, with provisions to synchronize to external time sources like GPS and NTP (Internet).  This library is often used together with TimeAlarms and DS1307RTC.
+      7: category=Timing
+      8: url=http://playground.arduino.cc/code/time
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\TinyGPSPlus-1.0.2b\library.properties
+      1: name=TinyGPS++
+      2: version=1.0.2
+      3: author=Mikal Hart
+      4: maintainer=Mikal Hart<mikal@arduniana.org>
+      5: sentence=TinyGPS++ provides object-oriented parsing of GPS (NMEA) sentences
+      6: paragraph=NMEA is the standard format GPS devices use to report location, time, altitude, etc. TinyGPS++ is a compact, resilient library that parses the most common NMEA 'sentences' used: GGA and RMC. It can also be customized to extract data from *any* compliant sentence.
+      7: category=Communication
+      8: url=https://github.com/mikalhart/TinyGPSPlus
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\TinyGSM-master\library.properties
+      1: name=TinyGSM
+      2: version=0.10.8
+      3: author=Volodymyr Shymanskyy
+      4: maintainer=Volodymyr Shymanskyy
+      5: sentence=A small Arduino library for GPRS modules, that just works.
+      6: paragraph=Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.
+      7: category=Communication
+      8: url=https://github.com/vshymanskyy/TinyGSM
+      9: architectures=*
+     10: includes=TinyGsmClient.h
+C:\Users\xxx\Documents\Arduino\libraries\TJpg_Decoder\library.properties
+      1: name=TJpg_Decoder
+      2: version=1.0.5
+      3: author=Bodmer
+      4: maintainer=Bodmer
+      5: sentence=A JPEG decoder based on tjpgd
+      6: paragraph=Renders jpeg images to TFT displays.
+      7: category=Display
+      8: url=https://github.com/Bodmer/TJpg_Decoder
+      9: architectures=*
+     10: includes=TJpg_Decoder.h
+C:\Users\xxx\Documents\Arduino\libraries\U8g2\library.properties
+      1: name=U8g2
+      2: version=2.28.10
+      3: author=oliver <olikraus@gmail.com>
+      4: maintainer=oliver <olikraus@gmail.com>
+      5: sentence=Monochrome LCD, OLED and eInk Library. Display controller: SSD1305, SSD1306, SSD1309, SSD1316, SSD1322, SSD1325, SSD1327, SSD1329, SSD1606, SSD1607, SH1106, SH1107, SH1108, SH1122, T6963, RA8835, LC7981, PCD8544, PCF8812, HX1230, UC1601, UC1604, UC1608, UC1610, UC1611, UC1617, UC1701, ST7511, ST7528, ST7565, ST7567, ST7571, ST7586, ST7588, ST75256, ST75320, NT7534, ST7920, IST3020, IST7920, LD7032, KS0108, KS0713, SED1520, SBN1661, IL3820, MAX7219. Interfaces: I2C, SPI, Parallel.
+      6: paragraph=Monochrome LCD, OLED and eInk Library. Successor of U8glib. Supported display controller: SSD1305, SSD1306, SSD1309, SSD1316, SSD1322, SSD1325, SSD1327, SSD1329, SSD1606, SSD1607, SH1106, SH1107, SH1108, SH1122, T6963, RA8835, LC7981, PCD8544, PCF8812, HX1230, UC1601, UC1604, UC1608, UC1610, UC1611, UC1617, UC1701, ST7511, ST7528, ST7565, ST7567, ST7571, ST7586, ST7588, ST75256, ST75320, NT7534, ST7920, IST3020, IST7920, LD7032, KS0108, KS0713, SED1520, SBN1661, IL3820, MAX7219. Supported interfaces: I2C, SPI, Parallel. Features: UTF8, >700 fonts, U8x8 char output.
+      7: category=Display
+      8: url=https://github.com/olikraus/u8g2
+      9: architectures=*
+     10: license=BSD-2-Clause
+C:\Users\xxx\Documents\Arduino\libraries\WiFiManager-master\library.properties
+      1: name=WiFiManager
+      2: version=0.12
+      3: author=tzapu
+      4: maintainer=tzapu
+      5: sentence=ESP8266 WiFi Connection manager with fallback web configuration portal
+      6: paragraph=Library for configuring ESP8266 modules WiFi credentials at runtime.
+      7: category=Communication
+      8: url=https://github.com/tzapu/WiFiManager.git
+      9: architectures=esp8266
+C:\Users\xxx\Documents\Arduino\libraries\WS2812FX\library.properties
+      1: name=Adafruit NeoPixel
+      2: version=1.0.5
+      3: author=Adafruit
+      4: maintainer=Adafruit <info@adafruit.com>
+      5: sentence=Arduino library for controlling single-wire-based LED pixels and strip.
+      6: paragraph=Arduino library for controlling single-wire-based LED pixels and strip.
+      7: category=Display
+      8: url=https://github.com/adafruit/Adafruit_NeoPixel
+      9: architectures=*
+C:\Users\xxx\Documents\Arduino\libraries\xoseperez-debounceevent-9a1f75ed8d73\library.properties
+      1: name=DebounceEvent
+      2: version=2.0.2
+      3: author=Xose Pérez <xose.perez@gmail.com>
+      4: maintainer=Xose Pérez <xose.perez@gmail.com>
+      5: sentence=Simple push button and toggle switch debounce library that reports number of clicks and length
+      6: paragraph=
+      7: category=Signal Input/Output
+      8: url=https://bitbucket.org/xoseperez/debounceevent
+      9: architectures=esp8266
+     10: includes=DebounceEvent.h
