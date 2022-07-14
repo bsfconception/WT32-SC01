@@ -58,6 +58,18 @@ The WT32-SC01 USBC-C connector CANNOT be used to charge the Li-Ion battery.
 
 ## Important Notice : Power OFF the on board power supply during the programming
 
+## Enclosing examples
+
+the STL files are available in this repo
+
+### USB Charging enclosure box 
+
+![Image3](https://user-images.githubusercontent.com/84618082/178920625-3a422964-880a-4192-9f70-5f7fc48ed0a0.jpg)
+![Image1](https://user-images.githubusercontent.com/84618082/178920636-b5857ee1-936c-4fcb-a46a-ebc54b5cbf00.jpg)
+![Image4](https://user-images.githubusercontent.com/84618082/178920643-7eff9802-b3e8-4e47-907a-ba5c66905cd6.jpg)
+
+
+### Wireless Charging with stand
 
 The current repo includes also additional file to enclose the WT32 with the board and manage the battery charging :
 ![IMG_20220603_190443](https://user-images.githubusercontent.com/84618082/171991305-c7984d57-45f8-4f77-8732-01891abf1b96.jpg)
