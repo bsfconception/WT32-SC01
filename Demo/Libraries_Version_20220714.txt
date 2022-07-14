@@ -1,4 +1,4 @@
-C:\Users\Eric Coste\Documents\Arduino\libraries\Adafruit_Fingerprint_Sensor_Library\library.properties
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit_Fingerprint_Sensor_Library\library.properties
       1: name=Adafruit Fingerprint Sensor Library
       2: version=2.0.3
       3: author=Adafruit
@@ -204,8 +204,8 @@ C:\Users\xxx\Documents\Arduino\libraries\Battery_Shield-1.0.3\library.properties
 C:\Users\xxx\Documents\Arduino\libraries\Ch376msc-master\library.properties
       1: name=Ch376msc
       2: version=1.4.0
-      3: author=György Kovács
-      4: maintainer=György Kovács <djusee@gmail.com>
+      3: author=GyÃ¶rgy KovÃ¡cs
+      4: maintainer=GyÃ¶rgy KovÃ¡cs <djusee@gmail.com>
       5: sentence=A library for CH376 file manage control chip.
       6: paragraph=Supports UART and SPI communication with the chip, read/write text files to USB flash drive.
       7: category=Data Storage
@@ -235,8 +235,8 @@ C:\Users\xxx\Documents\Arduino\libraries\DHT_sensor_library\library.properties
 C:\Users\xxx\Documents\Arduino\libraries\eeprom_rotate-master\library.properties
       1: name=EEPROM_Rotate
       2: version=0.9.1
-      3: author=Xose Pérez <xose.perez@gmail.com>
-      4: maintainer=Xose Pérez <xose.perez@gmail.com>
+      3: author=Xose PÃ©rez <xose.perez@gmail.com>
+      4: maintainer=Xose PÃ©rez <xose.perez@gmail.com>
       5: sentence=EEPROM wrapper for ESP8266 that handles sector rotation
       6: paragraph=Prevents data corruption and flash wear out
       7: category=Data Storage
@@ -318,7 +318,7 @@ C:\Users\xxx\Documents\Arduino\libraries\FastLED-master\library.properties
 C:\Users\xxx\Documents\Arduino\libraries\FauxmoESP\library.properties
       1: name=FauxmoESP
       2: version=3.2
-      3: author=Xose Pérez <xose.perez@gmail.com>
+      3: author=Xose PÃ©rez <xose.perez@gmail.com>
       4: maintainer=Paul Vint <paul@vintlabs.com>
       5: sentence=Amazon Alexa support for ESP8266 and ESP32
       6: paragraph=
@@ -429,8 +429,8 @@ C:\Users\xxx\Documents\Arduino\libraries\JPEGDecoder-master\library.properties
 C:\Users\xxx\Documents\Arduino\libraries\justwifi-master\library.properties
       1: name=JustWifi
       2: version=2.0.1
-      3: author=Xose Pérez <xose.perez@gmail.com>
-      4: maintainer=Xose Pérez <xose.perez@gmail.com>
+      3: author=Xose PÃ©rez <xose.perez@gmail.com>
+      4: maintainer=Xose PÃ©rez <xose.perez@gmail.com>
       5: sentence=Wifi Manager for ESP8266
       6: paragraph=Supports multiple wifi networks, scan for strongest signal, WPS and SmartConfig
       7: category=Communication
@@ -715,8 +715,8 @@ C:\Users\xxx\Documents\Arduino\libraries\WS2812FX\library.properties
 C:\Users\xxx\Documents\Arduino\libraries\xoseperez-debounceevent-9a1f75ed8d73\library.properties
       1: name=DebounceEvent
       2: version=2.0.2
-      3: author=Xose Pérez <xose.perez@gmail.com>
-      4: maintainer=Xose Pérez <xose.perez@gmail.com>
+      3: author=Xose PÃ©rez <xose.perez@gmail.com>
+      4: maintainer=Xose PÃ©rez <xose.perez@gmail.com>
       5: sentence=Simple push button and toggle switch debounce library that reports number of clicks and length
       6: paragraph=
       7: category=Signal Input/Output
