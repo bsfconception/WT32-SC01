@@ -1,20 +1,20 @@
 #define __SEL_INVERT_PIN__
 
-
 #define __ORIENTATION__  1
 
 #define __MANAGE_SDCARD__
 //#define __MANAGE_RTC__
 #define __MANAGE_WEB__
 //#define __MANAGE_DAC__
+//#define __USE_LVGL__
 
-#define __USE_LVGL__
+
+
 
 #define __DEBUG__
 
 //#define __DEBUG_FCT__(a)  g_SerialDebug.println(__FUNCTION__)
 //#define __DEBUG_FCT__(a)  g_DisplayStack()
-
 #define __DEBUG_FCT__(a)
 
 
