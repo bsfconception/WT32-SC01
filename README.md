@@ -38,6 +38,7 @@ The demo source code tests all the expansion board feature. The testing code is 
 - ...
 
 Note : check the code to mofidy and adjust for your testing. The "Display Picture" feature loads by defaut "logo.jpg" from the SD Card
+The source code is provided "as is" as an example. Some adjustments may be required in your configuration to compile
 
 ## Power Consumption
 The Powwer consumption of the entire system (WT32 + Expansion board) have been performed using the Li-Ion battery: 
@@ -56,7 +57,7 @@ The battery cna be charged from several power sources
 
 The WT32-SC01 USBC-C connector CANNOT be used to charge the Li-Ion battery.
 
-## Important Notice : Power OFF the on board power supply during the programming
+### Important Notice : Power OFF the on board power supply during the programming
 
 ## Enclosing examples
 
