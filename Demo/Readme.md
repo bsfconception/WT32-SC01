@@ -23,7 +23,8 @@ The both examples have been compiled using Arduino IDE 1.8.15
 All the libraries are up to date for building
 
 the following file list all installed libraries on my system when compiling:
-Libraries_Version_20220714.txt
+[Libraries_Version_20220714.txt](https://github.com/bsfconception/WT32-SC01/files/9112208/Libraries_Version_20220714.txt)
+
 
 
 Ensure that you enable the SPIFF features when compiling and uploading the code on the ESP32
