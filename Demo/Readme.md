@@ -1,8 +1,8 @@
 # Demonstration Softwares
 
-The demo code is provided "as is". Is is based on personal developement and examples from sereval sources.
+The demo code is provided "as is". Is is based on personal developement and from examples retrived from sereval sources.
 
-The intend of this software is to check the operation of the board. 
+The intend of this software is to check the operation of the board, NOT TO PROVIDE A FINAL SOLUTION. 
 
 Some libraries are required to compile the code: 
 - TFT_eSPI : https://github.com/Bodmer/TFT_eSPI
