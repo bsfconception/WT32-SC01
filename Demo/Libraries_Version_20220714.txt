@@ -1,4 +1,4 @@
-C:\Users\Eric Coste\Documents\Arduino\libraries\Adafruit_Fingerprint_Sensor_Library\library.properties
+C:\Users\xxx\Documents\Arduino\libraries\Adafruit_Fingerprint_Sensor_Library\library.properties
       1: name=Adafruit Fingerprint Sensor Library
       2: version=2.0.3
       3: author=Adafruit
