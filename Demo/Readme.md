@@ -10,11 +10,14 @@ Some libraries are required to compile the code:
 - RTClib : https://github.com/adafruit/RTClib
 - MCP4725 : https://github.com/RobTillaart/MCP4725
 
-About the TFT_eSPI library, a configuration file has to be created and stored in the LIB folder : 
+# WARNING
+TFT_eSPI library has t obe correctly setup for the destination board during compiling : 
+A configuration file has to be created and stored in the LIB folder
 C:\Users\xxxuserxxx\Documents\Arduino\libraries\TFT_eSPI
 - User_Setup_Select.h
 - WT32-SC01-User_Setup.h
 
+# Test code 
 Two examples are provided : 
 - WT32_BSF_LVGL_Demo : code based on the previous but adding the LVGL graphical interface. A setting enables or disables the LVGL features
 - old/WT32_BSF_Demo : using only TFT_eSPI graphical library
