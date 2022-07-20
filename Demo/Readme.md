@@ -38,4 +38,5 @@ Ensure that you enable the SPIFF features when compiling and uploading the code 
 Somes guides have been helpfull to make it run
 - https://blog.csdn.net/weixin_44007534/article/details/115224595
 - https://daumemo.com/how-to-use-lvgl-library-on-arduino-with-an-esp-32-and-spi-lcd/
+- https://github.com/sukesh-ak/LVGL8-WT32-SC01-Arduino
 
