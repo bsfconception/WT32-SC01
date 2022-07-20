@@ -10,7 +10,7 @@ Some libraries are required to compile the code:
 - RTClib : https://github.com/adafruit/RTClib
 - MCP4725 : https://github.com/RobTillaart/MCP4725
 
-#Important Note
+# Important Note
 It seems that the legacy Adafruit library for the TF6206 does contain the expected propotypes
 Here is a modified library : [Adafruit_FT6206_Library-master.zip](https://github.com/bsfconception/WT32-SC01/files/9152723/Adafruit_FT6206_Library-master.zip)
 
