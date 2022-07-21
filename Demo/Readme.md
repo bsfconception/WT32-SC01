@@ -22,12 +22,22 @@ It seems that the legacy Adafruit library for the TF6206 does contain the expect
 Here is a modified library : [Adafruit_FT6206_Library-master.zip](https://github.com/bsfconception/WT32-SC01/files/9152723/Adafruit_FT6206_Library-master.zip)
 
 
-# WARNING
-TFT_eSPI library has t obe correctly setup for the destination board during compiling : 
+# Libraries customisation
+Sereval modification are requied in the downloaded libraries:
+## TFT_eSPI library 
+has to be correctly setup for the destination board during compiling : 
 A configuration file has to be created and stored in the LIB folder
 C:\Users\xxxuserxxx\Documents\Arduino\libraries\TFT_eSPI
 - User_Setup_Select.h
 - WT32-SC01-User_Setup.h
+
+## LVGL
+the 
+    C:\Users\XXXX\Documents\Arduino\libraries\lvgl\lv_conf_template.h file 
+    must be copied to 
+    C:\Users\XXXX\Documents\Arduino\libraries\lvgl\src\lv_conf.h
+    
+
 
 # Test code 
 Two examples are provided : 
