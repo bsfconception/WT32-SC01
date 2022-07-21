@@ -11,19 +11,23 @@ The intend of this software is to check the operation of the board, NOT TO PROVI
     - http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 
-Some libraries are required to compile the code: 
-- TFT_eSPI : https://github.com/Bodmer/TFT_eSPI
-- Adafruit_FT6206 : https://github.com/adafruit/Adafruit_FT6206_Library
-- RTClib : https://github.com/adafruit/RTClib
-- MCP4725 : https://github.com/RobTillaart/MCP4725
+## Some libraries are required to compile the code:
 
-# Important Note
-It seems that the legacy Adafruit library for the TF6206 does contain the expected propotypes
-Here is a modified library : [Adafruit_FT6206_Library-master.zip](https://github.com/bsfconception/WT32-SC01/files/9152723/Adafruit_FT6206_Library-master.zip)
+- name=Adafruit BusIO       url=https://github.com/adafruit/Adafruit_BusIO	        version=1.12.0
+- name=Adafruit FT6206 Library      url=https://github.com/adafruit/Adafruit_FT6206_Library	        version=1.0.6
+- name=Adafruit GFX Library     	url=https://github.com/adafruit/Adafruit-GFX-Library	        version=1.11.3
+- name=Adafruit ILI9341	        url=https://github.com/adafruit/Adafruit_ILI9341	        version=1.5.11
+- name=JPEGDecoder	        url=https://github.com/Bodmer/JPEGDecoder	        version=1.8.1
+- name=lvgl	        url=https://lvgl.io	        version=8.2.0
+- name=MCP4725	        url=https://github.com/RobTillaart/MCP4725	    version=0.3.3
+- name=RTClib	        url=https://github.com/adafruit/RTClib	        version=2.0.3
+- name=TFT_eSPI	        url=https://github.com/Bodmer/TFT_eSPI	        version=2.4.72
 
 
 # Libraries customisation
+
 Sereval modification are requied in the downloaded libraries:
+
 ## TFT_eSPI library 
 has to be correctly setup for the destination board during compiling : 
 A configuration file has to be created and stored in the LIB folder
@@ -32,9 +36,9 @@ C:\Users\xxxuserxxx\Documents\Arduino\libraries\TFT_eSPI
 - WT32-SC01-User_Setup.h
 
 ## LVGL
-the 
-    C:\Users\XXXX\Documents\Arduino\libraries\lvgl\lv_conf_template.h file 
-    must be copied to 
+the following file 
+    C:\Users\XXXX\Documents\Arduino\libraries\lvgl\lv_conf_template.h
+    must be renamed and copied to 
     C:\Users\XXXX\Documents\Arduino\libraries\lvgl\src\lv_conf.h
     
 
@@ -44,8 +48,6 @@ Two examples are provided :
 - WT32_BSF_LVGL_Demo : code based on the previous but adding the LVGL graphical interface. A setting enables or disables the LVGL features
 
 
-the following file list all installed libraries on my system when compiling:
-[Libraries_Version_20220714.txt](https://github.com/bsfconception/WT32-SC01/files/9112208/Libraries_Version_20220714.txt)
 
 
 
