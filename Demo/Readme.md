@@ -1,8 +1,15 @@
-# Demonstration Softwares
+# Demonstration Software
 
 The demo code is provided "as is". Is is based on personal developement and from examples retrived from sereval sources.
 
 The intend of this software is to check the operation of the board, NOT TO PROVIDE A FINAL SOLUTION. 
+
+## Arduino Configuration
+- Version 1.8.19
+- Boards Manager in "preferences":
+    - https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+    - http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 
 Some libraries are required to compile the code: 
 - TFT_eSPI : https://github.com/Bodmer/TFT_eSPI
@@ -25,10 +32,7 @@ C:\Users\xxxuserxxx\Documents\Arduino\libraries\TFT_eSPI
 # Test code 
 Two examples are provided : 
 - WT32_BSF_LVGL_Demo : code based on the previous but adding the LVGL graphical interface. A setting enables or disables the LVGL features
-- old/WT32_BSF_Demo : using only TFT_eSPI graphical library
 
-The both examples have been compiled using Arduino IDE 1.8.15
-All the libraries are up to date for building
 
 the following file list all installed libraries on my system when compiling:
 [Libraries_Version_20220714.txt](https://github.com/bsfconception/WT32-SC01/files/9112208/Libraries_Version_20220714.txt)
