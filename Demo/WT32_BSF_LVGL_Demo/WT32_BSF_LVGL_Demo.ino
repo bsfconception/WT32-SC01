@@ -3,10 +3,10 @@
 #define __ORIENTATION__  1
 
 #define __MANAGE_SDCARD__
-//#define __MANAGE_RTC__
+#define __MANAGE_RTC__
 #define __MANAGE_WEB__
-//#define __MANAGE_DAC__
-//#define __USE_LVGL__
+#define __MANAGE_DAC__
+#define __USE_LVGL__
 
 
 
@@ -41,7 +41,7 @@ static const uint16_t g_screenWidth = TFT_WIDTH;
 static const uint16_t g_screenHeight = TFT_HEIGHT;
 
 #ifdef __USE_LVGL__
-  #include <lvgl.h>
+  #include "lvgl.h"
   #include "esp_freertos_hooks.h"
   #include "lv_conf_local.h"
 
@@ -197,8 +197,9 @@ void setup(void)
 //  _I2C_Scan();
 // end : DISABLE ...
 
-  if (!g_ts.begin(PIN_SDA, PIN_SCL, 40)) 
-  {
+//  if (!g_ts.begin(PIN_SDA, PIN_SCL, 40)) 
+  if (!g_ts.begin(40)) 
+    {
     Serial.println("Couldn't start touchscreen controller");
   }
   else
