@@ -14,7 +14,7 @@ It includes the following features:
 - MCP4725 DAC + LM386 Speaker amplifier 
 - I2C, IO, Control and Power extension connectors
 - Battery Voltage feedback to the ESP
-- MicroUSB connector for LiIon charging 
+- MicroUSB connector for Li-Ion charging 
 
 The PCB dimension fits to the WT32-SC01's.
 ![PCB_V1 1](https://user-images.githubusercontent.com/84618082/178008772-bc322595-49b6-4f7d-8436-ce15c46ad017.png)
@@ -78,10 +78,17 @@ The current repo includes also additional file to enclose the WT32 with the boar
 ![WT32_SC01_V0](https://user-images.githubusercontent.com/84618082/171991329-1f8d4e8e-22a2-4803-aea3-f63e086c694c.png)
 
 
-## Next Improvements to come
-- Power led on the PCB
-- RF Emitter footprint
-- DS1307 footprint (less accurate, but less expensive)
+# Change History
+- V1.0 : 
+  - correction of the Beta V0.9 (bad connector positon)
+- V1.1 : 
+  - Micro USB connector for battery charging
+  - SEL button option selection (Pull-Up or Down)
+- V1.2 : 
+  - Power led on the PCB
+  - RF Emitter footprint
+  - DS1307 footprint (less accurate, but less expensive)
+  - Jumper between ESP32 pin and Audio Amp
 
 
 ## You want a PCB ?
