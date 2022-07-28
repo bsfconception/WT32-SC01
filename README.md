@@ -49,11 +49,14 @@ The Powwer consumption of the entire system (WT32 + Expansion board) have been p
 These measurements are performed using the provided test code.
 ![Pinout](https://user-images.githubusercontent.com/84618082/178008853-b726c6a8-c3a5-43ba-b987-e3e57cf9d6bb.png)
 
-## LiIon battery Charging Note
+## Li-Ion battery Charging Note
 The battery cna be charged from several power sources
 - Micro USB Connector
 - Wireless IQ module
 - external power plug
+
+The TP4056 charge controler chip ist configured to charge at 550 mA. 
+Thus the charging time depends on your battery capacity : Duration(h) = Capacity(mA)/550 (approx)
 
 The WT32-SC01 USBC-C connector CANNOT be used to charge the Li-Ion battery.
 
