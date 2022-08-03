@@ -20,10 +20,8 @@ It includes the following features:
 - RF Transmitter 3 pins connector
 
 The last current version is V1.2
+![View](https://user-images.githubusercontent.com/84618082/182651188-6b95a6a9-0cad-4527-8996-4ed6f2a0c1c8.jpg)
 
-
-![PCB_2](https://user-images.githubusercontent.com/84618082/178008804-43db00e3-7fa0-45bc-aafb-9cc116324780.jpg)
-![View](https://user-images.githubusercontent.com/84618082/182650298-c190d442-e0c2-45d4-b0a6-541e5403ca40.jpg)
 
 Previus versions are V1.1
 ![PCB_3](https://user-images.githubusercontent.com/84618082/182650659-49ee3693-f450-4f07-b696-53cd78732bde.jpg)
