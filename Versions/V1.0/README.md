@@ -1,4 +1,4 @@
-# WT32-SC01 Extension Board V1.1
+# WT32-SC01 Extension Board V1.0
 
 ## Extension board for the WT32-SC01 Dev Kit
 
