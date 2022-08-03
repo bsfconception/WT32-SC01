@@ -1,4 +1,4 @@
-# WT32-SC01 Extension Board V1.1
+# WT32-SC01 Extension Board V1.2
 
 ## Extension board for the WT32-SC01 Dev Kit
 
@@ -9,18 +9,26 @@ It includes the following features:
 - LiPo - LiIon battery charger with overcharge and overdischarge protection
 - Charging status LEDs
 - 2 push buttons with sleep and deep sleep capabilities
-- DS3121M RTC clock + backup battery
+- DS3121M RTC clock + backup battery (OR)
+- DS1307 + Crystal + backup battery
 - Micro SD connector
 - MCP4725 DAC + LM386 Speaker amplifier 
 - I2C, IO, Control and Power extension connectors
 - Battery Voltage feedback to the ESP
 - MicroUSB connector for Li-Ion charging 
+- Power LED
+- RF Transmitter 3 pins connector
 
-The PCB dimension fits to the WT32-SC01's.
-![PCB_V1 1](https://user-images.githubusercontent.com/84618082/178008772-bc322595-49b6-4f7d-8436-ce15c46ad017.png)
-![PCB_2](https://user-images.githubusercontent.com/84618082/178008804-43db00e3-7fa0-45bc-aafb-9cc116324780.jpg)
-![IMG_20220705_194922](https://user-images.githubusercontent.com/84618082/178101554-06d3a111-4379-460b-b378-11b0b5f8ad58.jpg)
+The last current version is V1.2
+![View](https://user-images.githubusercontent.com/84618082/182651188-6b95a6a9-0cad-4527-8996-4ed6f2a0c1c8.jpg)
 
+
+Previus versions are V1.1
+![PCB_3](https://user-images.githubusercontent.com/84618082/182650659-49ee3693-f450-4f07-b696-53cd78732bde.jpg)
+
+
+and V1.0
+![PCB3D](https://user-images.githubusercontent.com/84618082/182650530-611f4af8-e021-40be-80cf-20123aca5450.jpg)
 
 
 
@@ -47,7 +55,7 @@ The Powwer consumption of the entire system (WT32 + Expansion board) have been p
 - Light Sleep Mode : 80 mA
 
 These measurements are performed using the provided test code.
-![Pinout](https://user-images.githubusercontent.com/84618082/178008853-b726c6a8-c3a5-43ba-b987-e3e57cf9d6bb.png)
+
 
 ## Li-Ion battery Charging Note
 The battery cna be charged from several power sources
