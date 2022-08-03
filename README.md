@@ -95,7 +95,7 @@ The current repo includes also additional file to enclose the WT32 with the boar
 
 
 ## You want a PCB ?
-the PCB can be purchased here : 
+You can either bluid your own with the provided manufactiring files, or purchase it here :
 
 https://www.tindie.com/products/26898/
 
