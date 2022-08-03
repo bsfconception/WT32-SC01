@@ -55,7 +55,7 @@ The Powwer consumption of the entire system (WT32 + Expansion board) have been p
 - Light Sleep Mode : 80 mA
 
 These measurements are performed using the provided test code.
-![Pinout](https://user-images.githubusercontent.com/84618082/178008853-b726c6a8-c3a5-43ba-b987-e3e57cf9d6bb.png)
+
 
 ## Li-Ion battery Charging Note
 The battery cna be charged from several power sources
