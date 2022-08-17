@@ -22,14 +22,7 @@ It includes the following features:
 The last current version is V1.2
 ![View](https://user-images.githubusercontent.com/84618082/182651188-6b95a6a9-0cad-4527-8996-4ed6f2a0c1c8.jpg)
 
-
-Previus versions are V1.1
-![PCB_3](https://user-images.githubusercontent.com/84618082/182650659-49ee3693-f450-4f07-b696-53cd78732bde.jpg)
-
-
-and V1.0
-![PCB3D](https://user-images.githubusercontent.com/84618082/182650530-611f4af8-e021-40be-80cf-20123aca5450.jpg)
-
+The manufactiring files are avialable here : https://github.com/bsfconception/WT32-SC01/tree/main/Versions/V1.2
 
 
 ## Demo Source Code
