@@ -16,7 +16,7 @@ It includes the following features:
 - I2C, IO, Control and Power extension connectors
 - Battery Voltage feedback to the ESP
 - MicroUSB connector for Li-Ion charging 
-- Power LED
+- Power LED (Note : the 5V power LED is lightned only when the WT32 SC01 main board is plugged on)
 - RF Transmitter 3 pins connector
 
 The last current version is V1.2
