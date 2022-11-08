@@ -96,9 +96,9 @@ The current repo includes also additional file to enclose the WT32 with the boar
 
 
 ## You want a PCB ?
-You can either bluid your own with the provided manufactiring files, or purchase it here :
-
-https://www.tindie.com/products/26898/
+You can either bluid your own with the provided manufactiring files, or purchase here :
+PCB Only : https://www.tindie.com/products/28469/
+Assembled board : https://www.tindie.com/products/26898/
 
 <a href="https://www.tindie.com/stores/blacksfactory/?ref=offsite_badges&utm_source=sellers_BlackSFactory&utm_medium=badges&utm_campaign=badge_small"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png" alt="I sell on Tindie" width="200" height="55"></a>
 
