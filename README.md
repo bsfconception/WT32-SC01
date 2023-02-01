@@ -1,4 +1,4 @@
-# WT32-SC01 Extension Board V1.2
+# WT32-SC01 Extension Board V2.0
 
 ## Extension board for the WT32-SC01 Dev Kit
 
@@ -7,22 +7,20 @@ http://www.wireless-tag.com/portfolio/wt32-sc01/
 
 It includes the following features:
 - LiPo - LiIon battery charger with overcharge and overdischarge protection
-- Charging status LEDs
+- Charging status LEDs (0 to 100%)
 - 2 push buttons with sleep and deep sleep capabilities
-- DS3121M RTC clock + backup battery (OR)
-- DS1307 + Crystal + backup battery
+- DS3121M - DS3231 - PCF8563T RTC clock + backup battery - SuperCapa
 - Micro SD connector
 - MCP4725 DAC + LM386 Speaker amplifier 
 - I2C, IO, Control and Power extension connectors
-- Battery Voltage feedback to the ESP
 - MicroUSB connector for Li-Ion charging 
-- Power LED (Note : the 5V power LED is lightned only when the WT32 SC01 main board is plugged on)
 - RF Transmitter 3 pins connector
 
-The last current version is V1.2
-![View](https://user-images.githubusercontent.com/84618082/182651188-6b95a6a9-0cad-4527-8996-4ed6f2a0c1c8.jpg)
+The last current version is V2.0
+![3D](https://user-images.githubusercontent.com/84618082/216062091-a8168d85-1f1b-48df-a96e-f08f2f7ab9c5.jpg)
 
-The manufactiring files are avialable here : https://github.com/bsfconception/WT32-SC01/tree/main/Versions/V1.2
+
+The manufactiring files are avialable here : https://github.com/bsfconception/WT32-SC01/tree/main/Versions/V2.0
 
 
 ## Demo Source Code
@@ -41,11 +39,6 @@ The demo source code tests all the expansion board feature. The testing code is 
 Note : check the code to mofidy and adjust for your testing. The "Display Picture" feature loads by defaut "logo.jpg" from the SD Card
 The source code is provided "as is" as an example. Some adjustments may be required in your configuration to compile
 
-## Power Consumption
-The Powwer consumption of the entire system (WT32 + Expansion board) have been performed using the Li-Ion battery: 
-- Wifi Connection and registration : 700mA
-- Normal running : 460 mA
-- Light Sleep Mode : 80 mA
 
 These measurements are performed using the provided test code.
 
@@ -56,30 +49,9 @@ The battery cna be charged from several power sources
 - Wireless IQ module
 - external power plug
 
-The TP4056 charge controler chip ist configured to charge at 550 mA. 
-Thus the charging time depends on your battery capacity : Duration(h) = Capacity(mA)/550 (approx)
-
 The WT32-SC01 USBC-C connector CANNOT be used to charge the Li-Ion battery.
 
 ### Important Notice : Power OFF the on board power supply during the programming
-
-## Enclosing examples
-
-the STL files are available in this repo
-
-### USB Charging enclosure box 
-
-![Image3](https://user-images.githubusercontent.com/84618082/178920625-3a422964-880a-4192-9f70-5f7fc48ed0a0.jpg)
-![Image1](https://user-images.githubusercontent.com/84618082/178920636-b5857ee1-936c-4fcb-a46a-ebc54b5cbf00.jpg)
-![Image4](https://user-images.githubusercontent.com/84618082/178920643-7eff9802-b3e8-4e47-907a-ba5c66905cd6.jpg)
-
-
-### Wireless Charging with stand
-
-The current repo includes also additional file to enclose the WT32 with the board and manage the battery charging :
-![IMG_20220603_190443](https://user-images.githubusercontent.com/84618082/171991305-c7984d57-45f8-4f77-8732-01891abf1b96.jpg)
-![IMG_20220603_190458](https://user-images.githubusercontent.com/84618082/171991308-a0f0558f-5b66-437b-a4ff-4b37b8273da0.jpg)
-![WT32_SC01_V0](https://user-images.githubusercontent.com/84618082/171991329-1f8d4e8e-22a2-4803-aea3-f63e086c694c.png)
 
 
 # Change History
@@ -93,6 +65,11 @@ The current repo includes also additional file to enclose the WT32 with the boar
   - RF Emitter footprint
   - DS1307 footprint (less accurate, but less expensive)
   - Jumper between ESP32 pin and Audio Amp
+- V2.0 : 
+  - New Li-Ion charger + Bulk Power 
+  - Support DS3231 - PCF8563T
+  - Super Capacitor (RTC backup)
+  - On Board Buzzer
 
 
 ## You want a PCB ?
