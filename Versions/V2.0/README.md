@@ -15,6 +15,7 @@ It includes the following features:
 - I2C, IO, Control and Power extension connectors
 - MicroUSB connector for Li-Ion charging 
 - RF Transmitter 3 pins connector
+- on PCB Buzzer
 
 The last current version is V2.0
 ![3D](https://user-images.githubusercontent.com/84618082/216062091-a8168d85-1f1b-48df-a96e-f08f2f7ab9c5.jpg)
@@ -70,10 +71,12 @@ The WT32-SC01 USBC-C connector CANNOT be used to charge the Li-Ion battery.
   - Support DS3231 - PCF8563T
   - Super Capacitor (RTC backup)
   - On Board Buzzer
+  - Merge of the 2 "audio" connectors
 
 
 ## You want a PCB ?
 You can either bluid your own with the provided manufactiring files, or purchase here :
+#NOTE : the previous version are not more available. The new vervion (V2.0) is in production.
 
 PCB Only : https://www.tindie.com/products/28469/
 
