@@ -1,3 +1,20 @@
+/* 
+ * This file is part of the BSFConception distribution (https://github.com/bsfconception/WT32-SC01).
+ * Copyright (c) 2022 BSF Conception - France
+ * 
+ * This program is free software: you can redistribute it and/or modify  
+ * it under the terms of the GNU General Public License as published by  
+ * the Free Software Foundation, version 3.
+ *
+ * This program is distributed in the hope that it will be useful, but 
+ * WITHOUT ANY WARRANTY; without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License 
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
 #ifdef __MANAGE_RTC__
 
 int _RTC_Init( void )
@@ -17,6 +34,8 @@ int _RTC_Init( void )
   #ifdef __DEBUG__
     g_SerialDebug.println("RTC OK");
   #endif
+  
+  g_rtc.adjust(DateTime(__DATE__, __TIME__));
   
   return(1);  
 }

@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+
+<title>WT32-SC01 Ext Board Test</title>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+
+<body bgcolor="#dfdfdf" >
+
+
+<p >&nbsp;</p>
+
+<table align="center" bgcolor="#004080" border="0" cellpadding="3" cellspacing="1" width="1024">
+	<tbody>
+		<tr>
+			<td>
+			<h1 align="center" ><font color="#ffffff" >WT32-SC01</font></h1>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#c0c0c0">
+			<p align="center">
+        &nbsp; 
+       <a class="navblack" href="HT_Home.htm" >Home</a>
+        &nbsp; |&nbsp; 
+        <a class="navblack" href="HT_Conf.htm" >Configuration</a>
+        &nbsp; |&nbsp; 
+        <a class="navblack" href="HT_Reset.htm">Reset</a>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#f0f0f0">
+			<p align="center">&nbsp;</p>
+                                               
+			<h2 style="text-align: center">API Out Configuration</h2>
+
+			<form action="HT_OUT_API.htm" method="post" >
+      <div  >
+       <div  class="innera">
+  			<table align="center" >
+          <thead>
+  					<tr>
+  						<th scope="col">ID</th>
+  						<th scope="col">Label</th>
+  						<th scope="col">Type</th>
+  						<th scope="col">Mode</th>
+  						<th scope="col">Host</th>
+  						<th scope="col">Path</th>
+  						<th scope="col">Enable</th>
+  					</tr>
+  				</thead>
+  <!--        
+            #LISTOFITEMS#
+  -->
+  				<tbody>
+  					<tr>
+  						<td>#ID1#</td>
+  						<td><input maxlength="12" name="LABEL1" size="12" type="text" value="#LABEL1#" /></td>
+  						<td><input maxlength="12" name="LABEL1" size="15" type="text" value="#LABEL1#" /></td>
+  						<td><input maxlength="12" name="LABEL1" size="12" type="text" value="#LABEL1#" /></td>
+  						<td><input maxlength="12" name="LABEL1" size="12" type="text" value="#LABEL1#" /></td>
+  						<td><input maxlength="12" name="LABEL1" size="12" type="text" value="#LABEL1#" /></td>
+  						<td><input maxlength="12" name="LABEL1" size="2" type="text" value="#LABEL1#" /></td>
+  					</tr>
+            
+          </tbody>
+  			</table>
+        </div>
+      </div>
+  
+			<p><input name="ACTION" type="hidden" value="UPDATE" /></p>
+			<p style="text-align: center"><input type="submit" class="button button_cta_feature" value="Update" /></p>
+			</form>
+
+
+			<form action="HT_OUT_API.htm" method="post" >
+  			<table align="center" >
+          <thead>
+  					<tr>
+  						<th scope="col">ID</th>
+  						<th scope="col">Label</th>
+  						<th scope="col">Type</th>
+  						<th scope="col">Mode</th>
+  						<th scope="col">Host</th>
+  						<th scope="col">Path</th>
+  						<th scope="col">Enable</th>
+  					</tr>
+  				</thead>
+  <!--        
+            #LISTOFITEMS#
+  -->
+  				<tbody>
+  					<tr>
+  						<td>#ID1#
+              </td>
+  						<td>
+                <input maxlength="20" name="LABEL" size="20" type="text" value="#LABEL#" />
+              </td>
+  						<td style="text-align: left">
+                <select name="TYPE" id="TYPE">
+                  <option value="0" #TYPE0#>Light</option>
+                  <option value="1" #TYPE1#>Switch</option>
+                  <option value="2" #TYPE2#>Door</option>
+                  <option value="3" #TYPE3#>Shutter</option>
+                  <option value="4" #TYPE4#>Temp</option>
+                  <option value="5" #TYPE5#>Humid</option>
+                  <option value="6" #TYPE6#>Dist</option>
+                </select>
+              </td>
+  						<td style="text-align: left">
+                <select name="MODE" id="MODE">
+                  <option value="0" #MODE0#>Pulse</option>
+                  <option value="1" #MODE1#>Toggle</option>
+                  <option value="2" #MODE2#>Get</option>
+                </select>
+              </td>
+  						<td>
+                <input maxlength="16" name="HOST" size="16" type="text" value="#HOST#" />
+              </td>
+  						<td>
+                <input maxlength="40" name="PATH" size="40" type="text" value="#PATH#" />
+              </td>
+  						<td>
+                <input name="SEL" type="checkbox" /></td>
+              </td>
+  					</tr>
+            
+            <tr>
+  						<td></td>
+  						<td>Label of the module</td>
+  						<td></td>
+  						<td></td>
+  						<td>IP : 192.168.0.123</td>
+  						<td>Header:api/relay/0?apikey=***&value='0,1,...</td>
+  						<td></td>
+  					</tr>
+          </tbody>
+  			</table>
+  
+			<p><input name="ACTION" type="hidden" value="UPDATE" /></p>
+			<p style="text-align: center"><input type="submit" class="button button_cta_feature" value="Update" /></p>
+			</form>
+
+
+		</td>
+      
+<!-- AFTER : SAME FOOTER FOR ALL PAGES -->
+		</tr>
+		<tr>
+			<td><font color="#ffffff" >(c) BSF Conception 2022 - bsf.conception@gmail.com</td>
+		</tr>
+
+	</tbody>
+</table>
+</body>
+</html>

@@ -41,22 +41,37 @@
       
 			<table align="center"    >
 				<tbody>
-					<tr>
-      			<form action="HT_Conf.htm" method="post" >
+    			<form action="HT_Conf.htm" method="post" >
+  					<tr>
+  						<td style="text-align: right">Module Name</td>
+  						<td style="text-align: left"><input maxlength="32"  name="MODULENAME" size="32" type="text" value="#MODULENAME#" /></td>
+  					</tr>
+  					<tr>
+  						<td colspan="4" style="text-align: center">
+                <input  type="submit" class="button button_cta_update" value="Update" />
+              </td>
+  					</tr>
+  					<input name="ACTION" type="hidden" value="UPDATE_NAME" />
+    			</form>
+				</tbody>
+			</table>
+			<p align="center">&nbsp;</p>
+			<table align="center"    >
+				<tbody>
+    			<form action="HT_Conf.htm" method="post" >
+  					<tr>
   						<td style="text-align: right">Date</td>
   						<td style="text-align: left"><input maxlength="32" name="DATE" size="32" type="date" value="#DATE#" /></td>
-  						<td style="text-align: left"><input  type="submit" class="button button_cta_update" value="Update" /></td>
-  						<td><input name="ACTION" type="hidden" value="UPDATE_DATE" /></td>
-      			</form>
-					</tr>
-					<tr>
-      			<form action="HT_Conf.htm" method="post" >
   						<td style="text-align: right">Time</td>
   						<td style="text-align: left"><input maxlength="32" name="TIME" size="32" type="time" value="#TIME#" /></td>
-  						<td style="text-align: left"><input  type="submit" class="button button_cta_update" value="Update" /></td>
-  						<td><input name="ACTION" type="hidden" value="UPDATE_TIME" /></td>
-      			</form>
-					</tr>
+  					</tr>
+  					<tr>
+  						<td colspan="4" style="text-align: center">
+                <input  type="submit" class="button button_cta_update" value="Update" />
+              </td>
+  					</tr>
+  					<input name="ACTION" type="hidden" value="UPDATE_DATETIME" />
+    			</form>
 				</tbody>
 			</table>
 			<p align="center">&nbsp;</p>
@@ -64,40 +79,53 @@
 			<table align="center"    >
 				<tbody>
 					<tr>
-						<td style="text-align: right">Module Name</td>
-						<td style="text-align: left"><input maxlength="32"  name="MODULENAME" size="32" type="text" value="#MODULENAME#" /></td>
+						<th style="text-align: center"></th>
+						<th style="text-align: center">WIFI Name</th>
+						<th style="text-align: center">WIFI Password</th>
 					</tr>
 					<tr>
-						<td style="text-align: right">Description</td>
-            <td style="text-align: left">
-            <textarea name="DESCRIPTION" rows="3" cols="31" >#DESCRIPTION#</textarea>
-					  </td>
+						<th style="text-align: center">#1</th>
+						<td style="text-align: left"><input maxlength="32" name="WIFIID1" size="32" type="text"  value="#WIFIID1#" /></td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIPWD1" size="32" type="text" value="#WIFIPWD1#" /></td>
 					</tr>
 					<tr>
-						<td style="text-align: right">WIFI Name</td>
-						<td style="text-align: left"><input maxlength="32" name="WIFIID" size="32" type="text"  value="#WIFIID#" /></td>
+						<th style="text-align: center">#2</th>
+						<td style="text-align: left"><input maxlength="32" name="WIFIID2" size="32" type="text"  value="#WIFIID2#" /></td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIPWD2" size="32" type="text" value="#WIFIPWD2#" /></td>
 					</tr>
 					<tr>
-						<td style="text-align: right">WIFI Password</td>
-						<td style="text-align: left"><input maxlength="32" name="WIFIPWD" size="32" type="text" value="#WIFIPWD#" /></td>
+						<th style="text-align: center">#3</th>
+						<td style="text-align: left"><input maxlength="32" name="WIFIID3" size="32" type="text"  value="#WIFIID3#" /></td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIPWD3" size="32" type="text" value="#WIFIPWD3#" /></td>
 					</tr>
 					<tr>
-						<td style="text-align: right">IP*</td>
-						<td style="text-align: left"><input maxlength="32" name="WIFIIP" size="32" type="text" class="form-input" placeholder="xxx.xxx.xxx.xxx" value="#WIFIIP#" /></td>
+						<th style="text-align: center">#4</th>
+						<td style="text-align: left"><input maxlength="32" name="WIFIID4" size="32" type="text"  value="#WIFIID4#" /></td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIPWD4" size="32" type="text" value="#WIFIPWD4#" /></td>
 					</tr>
 					<tr>
+						<th style="text-align: center">#5</th>
+						<td style="text-align: left"><input maxlength="32" name="WIFIID5" size="32" type="text"  value="#WIFIID5#" /></td>
+						<td style="text-align: left"><input maxlength="32" name="WIFIPWD5" size="32" type="text" value="#WIFIPWD5#" /></td>
+					</tr>
+				</tbody>
+			</table>
+			<p align="center">&nbsp;</p>
+			<table align="center"    >
+				<tbody>
+					<tr>
+						<td style="text-align: right">Local IP*</td>
+						<td style="text-align: left"><input maxlength="20" name="WIFIIP" size="20" type="text" class="form-input" placeholder="xxx.xxx.xxx.xxx" value="#WIFIIP#" /></td>
 						<td style="text-align: right">Gateway*</td>
-						<td style="text-align: left"><input maxlength="32" name="WIFIGW" size="32" type="text" class="form-input" placeholder="xxx.xxx.xxx.xxx" value="#WIFIGW#" /></td>
+						<td style="text-align: left"><input maxlength="20" name="WIFIGW" size="20" type="text" class="form-input" placeholder="xxx.xxx.xxx.xxx" value="#WIFIGW#" /></td>
 					</tr>
 					<tr>
-						<td style="text-align: right"></td>
-						<td style="text-align: right">* : leave 0.0.0.0 for DHCP or enter a valid IP address</td>
+						<td colspan="4" style="text-align: left">* : leave 0.0.0.0 for DHCP or enter a valid IP address</td>
 					</tr>
-          
 				</tbody>
 			</table>
 			<p><input name="ACTION" type="hidden" value="UPDATE" /></p>
-			<p style="text-align: center"><input type="submit" class="button button_cta_save" value="Update" /></p>
+			<p style="text-align: center"><input type="submit" class="button button_cta_update" value="Update" /></p>
 			</form>
 
 		</tr>

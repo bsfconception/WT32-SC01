@@ -6,7 +6,7 @@ a.navblack:visited { text-decoration: none; color: #000000; font-family: Verdana
 a.navblack:hover { text-decoration: underline; color: #000000; font-family: Verdana, Arial, sans-serif; font-size: 12px; font-weight: bold; }
 
 
-	canvas{
+canvas{
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		-ms-user-select: none;
@@ -73,6 +73,22 @@ height: 80px;
     width: 125px;
     border-radius: 8px;
 }
+.button_cta_reset {       
+    background-color: #F08080;
+    height: 25px;
+    font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    border-radius: 8px;
+}
+.button_cta_update {       
+    background-color: #8080F0;
+    height: 25px;
+    font-size: 14px;
+    width: 100px;
+    border-radius: 8px;
+    margin: auto;
+}
 
 .button_sw_start {
 background-color: #4F4FFD;
@@ -87,6 +103,11 @@ color: black;
 height: 80px;
 }
 
+
+.innera {
+overflow:auto;
+height:200px;
+}
 
 
 
