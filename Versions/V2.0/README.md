@@ -6,23 +6,26 @@ this board is ready to be plugged one of the WT32-SC01 from Wireless-Tag (c)
 http://www.wireless-tag.com/portfolio/wt32-sc01/
 
 It includes the following features:
-- LiPo - LiIon battery charger with overcharge and overdischarge protection
-- Charging status LEDs (0 to 100%)
+- New LiPo - LiIon battery charger with overcharge and overdischarge protection
+- 4 power status LEDs (0 to 100%)
 - 2 push buttons with sleep and deep sleep capabilities
 - DS3121M - DS3231 - PCF8563T RTC clock + backup battery - SuperCapa
 - Micro SD connector
 - MCP4725 DAC + LM386 Speaker amplifier 
 - I2C, IO, Control and Power extension connectors
 - MicroUSB connector for Li-Ion charging 
-- RF Transmitter 3 pins connector
-- on PCB Buzzer
+- Buzzer
 
 The last current version is V2.0
-![3D](https://user-images.githubusercontent.com/84618082/216062091-a8168d85-1f1b-48df-a96e-f08f2f7ab9c5.jpg)
+
 
 
 The manufactiring files are avialable here : https://github.com/bsfconception/WT32-SC01/tree/main/Versions/V2.0
+![3D_CAPA](https://user-images.githubusercontent.com/84618082/219873292-c3183de7-3d9a-4b2f-8b31-b162a7ea319d.png)
 
+![PinOut](https://user-images.githubusercontent.com/84618082/219873302-4922c9a2-f291-437b-9ede-fc6165873301.png)
+
+![WT32-SC01-Layout](https://user-images.githubusercontent.com/84618082/219873501-3464c8a2-5f6e-4ff2-83c0-0f44a59918f5.svg)
 
 ## Demo Source Code
 
