@@ -1,3 +1,7 @@
+# BOM #
+
+List of components
+
 |Item|Qty|Reference(s)|Value|
 |----|----|----|----|
 |1|1|BT1|CR1220 Holder|
@@ -50,7 +54,6 @@
 |55|1|U7|MCP4725-DAC7571|
 |56|1|U8|LM386|
 |58|1|Y1|32KHz|
-![image](https://user-images.githubusercontent.com/84618082/219956167-36aafa2c-eb21-4249-8dd9-dd025f66c8a2.png)
 
 
 
