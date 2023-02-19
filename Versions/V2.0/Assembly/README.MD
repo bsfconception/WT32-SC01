@@ -56,6 +56,79 @@ List of components
 |58|1|Y1|32KHz|
 
 
+||||RTC Options|||||||
+"|Reference(s)|Value|Mandatory|DS323x  CR1220|DS323x  
+0.5F Capa|PCF8563  CR1220|PCF8563
+0.5F Capa|Buzzer|Audio Amplifier|
+MCP4725
+DAC|"
+|----|----|----|----|----|----|----|----|----|----|
+|BT1|CR1220||Y||Y|||||
+|BZ1|Buzzer||||||Y|||
+|C1|100nF||Y|Y||||||
+|C2|10uF|Y||||||||
+|C3|100nF|Y||||||||
+|C4|22uF|Y||||||||
+|C5|22uF|Y||||||||
+|C6|22uF|Y||||||||
+|C7|22uF|Y||||||||
+|C8|22uF|Y||||||||
+|C9|470uF|Y||||||||
+|C10|47uF|Y||||||||
+|C11|22uF|Y||||||||
+|C12|100uF|||||||Y||
+|C13|100uF|||||||Y||
+|C14|100nF||||||||Y|
+|C15|100uF||||||||Y|
+|C16|47nF|||||||Y||
+|C17|10uF|||||||Y||
+|C20|100nF||||Y|Y||||
+|C21|0F5|||Y||Y||||
+|D1|0.25|Y||||||||
+|D2|1N4004|Y||||||||
+|D3|0.5|Y||||||||
+|D4|1|Y||||||||
+|D5|0.75|Y||||||||
+|D6|LED|Opt||||||||
+|D7|1N4001|||Y|Y|Y||||
+|D8|1N4001||||Y|||||
+|J1|SD_Card|Y||||||||
+|J2|CTRL|Y||||||||
+|J3|I2C|Y||||||||
+|J4|CTRL|Y||||||||
+|J8|POWER|Y||||||||
+|J10|GPIO|Y||||||||
+|J12|I2C|Opt||||||||
+|J13|BAT|Y||||||||
+|J14|USB_B_Micro|Y||||||||
+|JP1|IO4_OUT|||||||Closed|Open|
+|JP2|RTC_BAT||Open|Closed|Open|Open|Don't Care|Don't Care|Don't Care|
+|JP3|DAC A0|DAC I2C address||||||||
+|JP4|SEL|Linked to R19 option||||||||
+|L1|1uH|Y||||||||
+|Q1|MMBT3904||||||Y|||
+|R1|0R5|Y||||||||
+|R3|47K|Y||||||||
+|R4|10K|Y||||||||
+|R5|1K|||Y||Y||||
+|R6|4K7||||||Y|||
+|R15|20K|||||||Y||
+|R16|1K|||||||Y||
+|R17|10|||||||Y||
+|R18|1K2|||||||Y||
+|R19|47K|Linked to JP4 option||||||||
+|SW1 / SW6|WAKE|Y||||||||
+|SW2|RESET|Y||||||||
+|SW3 / SW7|SEL|Y||||||||
+|SW4 / SW5|PWR|Y||||||||
+|U1|DS3231M||Y|Y||||||
+|U3|IP5306|Y||||||||
+|U4|PCF8563T||||Y|Y||||
+|U5|DS3232M||Y|Y||||||
+|U7|MCP4725-DAC7571||||||||Y|
+|U8|LM386|||||||Y||
+|Y1|32KHz||||Y|Y||||
+
 
 
 # Examples of assembled PCB #
