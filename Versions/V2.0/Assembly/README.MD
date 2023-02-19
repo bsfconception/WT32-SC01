@@ -56,12 +56,7 @@ List of components
 |58|1|Y1|32KHz|
 
 
-||||RTC Options|||||||
-"|Reference(s)|Value|Mandatory|DS323x  CR1220|DS323x  
-0.5F Capa|PCF8563  CR1220|PCF8563
-0.5F Capa|Buzzer|Audio Amplifier|
-MCP4725
-DAC|"
+|Reference(s)|Value|Mandatory|DS323x-CR1220|DS323x-0.5F Capa|PCF8563 CR1220|PCF8563 0.5F Capa|Buzzer|Audio Amplifier|MCP4725DAC|
 |----|----|----|----|----|----|----|----|----|----|
 |BT1|CR1220||Y||Y|||||
 |BZ1|Buzzer||||||Y|||
