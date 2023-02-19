@@ -56,6 +56,8 @@ List of components
 |58|1|Y1|32KHz|
 
 
+# Mandatoru components based on options
+
 |Reference(s)|Value|Mandatory|DS323x-CR1220|DS323x-0.5F Capa|PCF8563 CR1220|PCF8563 0.5F Capa|Buzzer|Audio Amplifier|MCP4725DAC|
 |----|----|----|----|----|----|----|----|----|----|
 |BT1|CR1220||Y||Y|||||
@@ -123,6 +125,23 @@ List of components
 |U7|MCP4725-DAC7571||||||||Y|
 |U8|LM386|||||||Y||
 |Y1|32KHz||||Y|Y||||
+
+# Jumper settings
+
+| Jumper | Picture | Description | 
+| ---- | ---- | ---- | 
+| JP1 | ![JP1](https://user-images.githubusercontent.com/84618082/219957034-e954d172-2c32-4da3-90e9-747deb850008.jpg) | Link IO4 to Audio Amplifier | 
+| JP2 | ![JP2](https://user-images.githubusercontent.com/84618082/219957057-29de11a6-ca3f-49e8-b91a-95704823dae4.jpg) | Solder only with DS323x + 0.5FCapa | 
+| JP3 | ![JP3_L](https://user-images.githubusercontent.com/84618082/219957524-68242c41-43bf-4867-a656-01750658b648.jpg) | DAC I2C Address=0x63 | 
+|  | ![JP3_r](https://user-images.githubusercontent.com/84618082/219957528-86750cc2-f627-4cf7-b462-981b1e056b1f.jpg) | DAC I2C Address=0x63 | 
+| JP4 | ![JP4_L](https://user-images.githubusercontent.com/84618082/219957555-0f2b647f-db7c-478f-b3c7-9370388bec7d.jpg) | Default value for SEL is '1' Remove R19 | 
+|  | ![JP4_r](https://user-images.githubusercontent.com/84618082/219957559-eb3f1c6d-e0d2-4e53-b751-87656cb2cd59.jpg) | Default value for SEL is '0' 
+Solder R19 | 
+
+
+
+
+
 
 
 
