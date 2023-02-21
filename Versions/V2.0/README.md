@@ -27,16 +27,24 @@ The manufactiring files are avialable here : https://github.com/bsfconception/WT
 
 ![WT32-SC01-Layout](https://user-images.githubusercontent.com/84618082/219873501-3464c8a2-5f6e-4ff2-83c0-0f44a59918f5.svg)
 
+## Note about he IP5306 Integrated Power Bank SOC
+The datasheet contains an error about the usage of the POWER key : 
+- Short Pulse : POWER ON
+- 2 Short Pulses : POWER OFF
+- Long Pulse (>2sec) : Toggle Torch Light
+
+
 ## Demo Source Code
 
 The demo source code tests all the expansion board feature. The testing code is provided "as is" and includes : 
 - DAC setup and test
+- IO4 PMW output if NO DEC is present
 - Basic GUI with buttons and actions control
 - I2C scanner
 - JPEG decoder and display
 - SD Card files acces control
 - SPIFF files acces control
-- RTC management
+- DS3231 / DS3232 / PCF8563 RTC chip management
 - Web Server with WiFi settings and control
 - ...
 
